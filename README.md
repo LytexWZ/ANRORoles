@@ -21,7 +21,7 @@ points (how much points you need in order to get the role or in case of certific
 ## Examples
 ### Before
 ```
-"Administration Director": {
+"Employee Engagement": {
         description: "",
         requirements: "",
         points: "N/A",
@@ -30,10 +30,23 @@ points (how much points you need in order to get the role or in case of certific
 ```
 ### After
 ```
-"Administration Director": {
-        description: "Oversees all administrative operations and strategic planning for ANRO",
-        requirements: "",
+"Employee Engagement": {
+        description: "Hosting gamenights to liven up ANRO's spirit",
+        requirements: "Become an ANRO MR, then request to join this department",
         points: "N/A",
         category: "departments"
     },
 ```
+
+Feel free to rephrase, modify or delete wrong / incomplete descriptions or requirements. Nothing is final!
+
+
+## Pull request for noobies
+
+In order to contribute to this list you will need 2 things, a computer (You can also work on phone but it's easier to) an account.
+
+1. Head over to the data.js file and click the pencil at the top right to edit the file, a prompt will appear
+2. After you get the prompt asking to create a fork of this repo select yes and edit the file as you wish
+3. Press commit / save changes at the top right green button to save your changes
+4. Head over to the pull request section of this repo (Not the one you created) and create one
+5. Your contribution will be accepted shortly, Thanks for your contribution even if it's one tiny change it truly helps! 
