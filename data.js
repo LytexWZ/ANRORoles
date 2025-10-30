@@ -9,8 +9,8 @@ const roleDescriptions = {
         category: "departments"
     },
     "Training and Qualification": {
-        description: "",
-        requirements: "",
+        description: "To teach new ANRO members and host certs",
+        requirements: "Become an ANRO MR, then request to join this department.",
         points: "N/A",
         category: "departments"
     },
@@ -33,38 +33,38 @@ const roleDescriptions = {
         category: "departments"
     },
     "Instructor": {
-        description: "",
-        requirements: "",
+        description: "You're trusted",
+        requirements: "Finish the probationary phase of being an instructor",
         points: "N/A",
         category: "departments"
     },
     "Prob. Instructor": {
-        description: "",
-        requirements: "",
+        description: "You are responsible for orientations and certs.",
+        requirements: "Become an ANRO MR, then request to join this department",
         points: "N/A",
         category: "departments"
     },
     "Logistics & Human Resources": {
-        description: "",
-        requirements: "",
+        description: "You paper push",
+        requirements: "Become an ANRO MR, then request to join this department.",
         points: "N/A",
         category: "departments"
     },
     "Employee Engagement": {
-        description: "",
-        requirements: "",
+        description: "Hosting gamenights to liven up ANRO's spirit",
+        requirements: "Become an ANRO MR, then request to join this department",
         points: "N/A",
         category: "departments"
     },
     "ANRO Propaganda Official": {
-        description: "",
-        requirements: "",
+        description: "Arts and more",
+        requirements: "Go to the subdivision channel, if the division is available, you may apply for it using a format.",
         points: "N/A",
         category: "departments"
     },
     "ANRO Recruitment Official": {
-        description: "",
-        requirements: "",
+        description: "Oversees recruiting of potential ANRO members and recommend them to join ANRO",
+        requirements: "Go to the subdivision channel, if the division is open, you may use a format with reasoning to apply for it",
         points: "N/A",
         category: "departments"
     },
@@ -87,14 +87,14 @@ const roleDescriptions = {
         category: "departments"
     },
     "Evil dept. Voluntary member": {
-        description: "",
-        requirements: "",
+        description: "You are an evil person, destroy the plant.",
+        requirements: "React to a message which will grant you this role",
         points: "N/A",
         category: "departments"
     },
     "NICE operator": {
-        description: "",
-        requirements: "",
+        description: "You are very kind, help others.",
+        requirements: "React to a message which will grant you this role.",
         points: "N/A",
         category: "departments"
     },
@@ -123,8 +123,8 @@ const roleDescriptions = {
         category: "departments"
     },
     "ANRORD - Researcher": {
-        description: "",
-        requirements: "",
+        description: "The starting for your journey in ANRORD",
+        requirements: "Go to the subdivision channel, if the division is avaialble to be applied for, use a format and give reasons as to why you want to join.",
         points: "N/A",
         category: "departments"
     },
@@ -135,14 +135,14 @@ const roleDescriptions = {
         category: "departments"
     },
     "Super Duper Research(ed) Department": {
-        description: "",
-        requirements: "",
+        description: "ITS JUST A JOKE, or is it",
+        requirements: "Given by MR's or HR's",
         points: "N/A",
         category: "departments"
     },
     "Research(ed) Department": {
-        description: "",
-        requirements: "",
+        description: "Why are you so stupid?",
+        requirements: "Do something stupid in ANRO till they have to research your brain",
         points: "N/A",
         category: "departments"
     },
