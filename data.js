@@ -4,7 +4,7 @@ const roleDescriptions = {
     // Departments
     "Administration Director": {
         description: "Oversees all administrative operations and strategic planning for ANRO",
-        requirements: "",
+        requirements: "Handpicked by Site President",
         points: "N/A",
         category: "departments"
     },
@@ -15,20 +15,20 @@ const roleDescriptions = {
         category: "departments"
     },
     "TQUAL Admin": {
-        description: "",
-        requirements: "",
+        description: "TQUAL Administration that oversees TQUAL operations.",
+        requirements: "Unknown",
         points: "N/A",
         category: "departments"
     },
     "TQUAL Officer": {
-        description: "",
-        requirements: "",
+        description: "Officer of TQUAL",
+        requirements: "Unknown",
         points: "N/A",
         category: "departments"
     },
     "Senior Instructor": {
-        description: "",
-        requirements: "",
+        description: "Middle rank of the TQUAL department",
+        requirements: "Host certs, etc.",
         points: "N/A",
         category: "departments"
     },
@@ -69,20 +69,20 @@ const roleDescriptions = {
         category: "departments"
     },
     "ANRO Development Official": {
-        description: "",
-        requirements: "",
+        description: "The development sector of ANRO, creating technology and games.",
+        requirements: "Become a MR and wait for ANRD apps to arrive.",
         points: "N/A",
         category: "departments"
     },
     "ANRO Lore Official": {
-        description: "",
-        requirements: "",
+        description: "Department regarding lore of ANRO",
+        requirements: "Pass apps.",
         points: "N/A",
         category: "departments"
     },
     "ANRO Minecraft Official": {
-        description: "",
-        requirements: "",
+        description: "Department handling the Minecraft server of ANRO",
+        requirements: "Unknown",
         points: "N/A",
         category: "departments"
     },
@@ -129,8 +129,8 @@ const roleDescriptions = {
         category: "departments"
     },
     "Plant Maintenance (Bot Developer)": {
-        description: "",
-        requirements: "",
+        description: "Development team for the John Clanker bot",
+        requirements: "Unknown",
         points: "N/A",
         category: "departments"
     },
@@ -147,20 +147,20 @@ const roleDescriptions = {
         category: "departments"
     },
     "Team SCRAMed": {
-        description: "",
-        requirements: "",
+        description: "ANRO Games team.",
+        requirements: "Request to join the game.",
         points: "N/A",
         category: "departments"
     },
     "Team Synced": {
-        description: "",
-        requirements: "",
+        description: "ANRO Games team",
+        requirements: "Request to join the game.",
         points: "N/A",
         category: "departments"
     },
     "Apollo": {
-        description: "",
-        requirements: "",
+        description: "Unknown",
+        requirements: "Unknown",
         points: "N/A",
         category: "departments"
     },
@@ -191,8 +191,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "Naramo Massacre": {
-        description: "",
-        requirements: "",
+        description: "Witness the mass murdering of fellow ROs, Rest in peace!",
+        requirements: "Join a lore event regarding this event.",
         points: "N/A",
         category: "awards"
     },
@@ -203,8 +203,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "The Last Stand": {
-        description: "",
-        requirements: "",
+        description: "Fought till your last breath for the plant.",
+        requirements: "No longer giveable.",
         points: "N/A",
         category: "awards"
     },
@@ -221,20 +221,20 @@ const roleDescriptions = {
         category: "awards"
     },
     "V2 Naramo Raider": {
-        description: "",
-        requirements: "",
+        description: "Be on the WN team during the V2 Beta test with developers.",
+        requirements: "No longer giveable.",
         points: "N/A",
         category: "awards"
     },
     "Nice": {
-        description: "",
-        requirements: "",
+        description: "Very nice.",
+        requirements: "Be kind",
         points: "N/A",
         category: "awards"
     },
     "EVIL department": {
-        description: "",
-        requirements: "",
+        description: "the department of EVIL...",
+        requirements: "Request under the Enlistment thread under #officer-posting",
         points: "N/A",
         category: "awards"
     },
@@ -242,13 +242,13 @@ const roleDescriptions = {
     // Special Roles
     "ANROCOM": {
         description: "ANRO Command - highest leadership position",
-        requirements: "",
+        requirements: "Handpicked",
         points: "N/A",
         category: "special"
     },
     "Server Administrator": {
         description: "Technical administrator with full server access",
-        requirements: "",
+        requirements: "Handpicked",
         points: "N/A",
         category: "special"
     },
@@ -262,19 +262,19 @@ const roleDescriptions = {
     },
     "SUPER DUPER BEST HICOM AWARD": {
         description: "Special recognition for outstanding high command service",
-        requirements: "",
+        requirements: "Handpicked",
         points: "N/A",
         category: "ranks"
     },
     "Chief Executive Officer": {
-        description: "",
-        requirements: "",
+        description: "No longer used.",
+        requirements: "No longer used.",
         points: "N/A",
         category: "ranks"
     },
     "HR - HIGH RANK": {
-        description: "",
-        requirements: "",
+        description: "HR for ANRO.",
+        requirements: "Be under a HR role.",
         points: "N/A",
         category: "ranks"
     },
@@ -285,20 +285,20 @@ const roleDescriptions = {
         category: "ranks"
     },
     "SIB": {
-        description: "",
-        requirements: "",
+        description: "Diplomat role",
+        requirements: "Be part of SIB.",
         points: "N/A",
         category: "ranks"
     },
     "Lord Regent God-Emperor Copyright of the Thousand Suns and Million MRs": {
-        description: "",
-        requirements: "",
+        description: "Future lore event.",
+        requirements: "Unknown.",
         points: "N/A",
         category: "ranks"
     },
     "Professional Standards": {
-        description: "",
-        requirements: "",
+        description: "Unknown",
+        requirements: "Unknown",
         points: "N/A",
         category: "ranks"
     },
@@ -417,14 +417,14 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Junior Shift Supervisor": {
-        description: "",
-        requirements: "",
+        description: "Probationary SU.",
+        requirements: "Pass the MR exam.",
         points: "N/A",
         category: "ranks"
     },
     "Faction Diplomat": {
         description: "Represents ANRO in diplomatic relations",
-        requirements: "",
+        requirements: "Be a HR in any Naramo faction, eg, NFSF, NDC, 308th, and NES.",
         points: "N/A",
         category: "ranks"
     },
@@ -454,24 +454,24 @@ const roleDescriptions = {
     },
     "Stratocratic Military Police": {
         description: "Military police with enforcement authority",
-        requirements: "",
+        requirements: "Be part of SMP, A diplomat role.",
         points: "N/A",
         category: "ranks"
     },
     "Senior Reactor Operator": {
-        description: "",
+        description: "Qualified reactor operator position",
         requirements: "15+ shifts + supervisor certification",
         points: "N/A",
         category: "ranks"
     },
     "Nuclear Engineer": {
-        description: "",
+        description: "Expierenced reactor operator position",
         requirements: "5 solo T3 shifts + 10+ shifts + emergency & grid cert + 75+ points",
         points: "75",
         category: "ranks"
     },
     "Reactor Operator": {
-        description: "",
+        description: "Intermediate reactor operator position",
         requirements: "25+ points + turbine & solo cert + 2+ shifts",
         points: "25",
         category: "ranks"
@@ -483,8 +483,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "NFSF Volunteer": {
-        description: "Volunteer for Nuclear Facility Security Force",
-        requirements: "",
+        description: "Security for orientations, have limited jurdisiction and have direct contact to IA & DC&E",
+        requirements: "Be a NFSF member in NFSF.",
         points: "N/A",
         category: "ranks"
     },
@@ -503,62 +503,62 @@ const roleDescriptions = {
 
     // Certifications
     "Formation Certification": {
-        description: "",
-        requirements: "",
+        description: "Be able to do wedges and faces",
+        requirements: "No longer obtainable - Pass a formation test by burger (retired) ",
         points: "",
         category: "certifications"
     },
     "Spooky Certified": {
         description: "Specialized certification for spooky operations",
-        requirements: "",
+        requirements: "Complete the SpOoOoOoky exam!",
         points: "",
         category: "certifications"
     },
     "Supervisor Certified": {
-        description: "",
-        requirements: "",
+        description: "Able to supervise - future SU!",
+        requirements: "Complete the supervisor exam.",
         points: "",
         category: "certifications"
     },
     "Supervisor Eligible": {
-        description: "",
-        requirements: "",
+        description: "Able to do the supervisor exam.",
+        requirements: "Reach a certain rank to get this role.",
         points: "",
         category: "certifications"
     },
     "Grid Certified": {
         description: "Certified to operate electrical grid systems",
-        requirements: "",
+        requirements: "Setup the grid, take a exam.",
         points: "",
         category: "certifications"
     },
     "Evil Certified": {
-        description: "",
-        requirements: "",
+        description: "Why are you so EVIL!",
+        requirements: "Do something evil authorized by Z3usfury.",
         points: "",
         category: "certifications"
     },
     "Emergency Certified": {
         description: "Qualified to handle emergency situations and procedures",
-        requirements: "",
+        requirements: "Do a SCRAM test, then take a exam.",
         points: "",
         category: "certifications"
     },
     "Turbine Certified": {
         description: "Certified to operate turbine systems",
-        requirements: "",
+        requirements: "Sync a turbine successfuly.",
         points: "",
         category: "certifications"
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
-        requirements: "",
+        requirements: "Do three solo T3s for this.",
         points: "",
         category: "certifications"
     },
     "Sleep Cert": {
-        description: "",
-        requirements: "",
+        description: "Sleep in call... for a long time...",
+        requirements: "Sleep in a call for 24 hours.",
         points: "",
         category: "certifications"
     }
