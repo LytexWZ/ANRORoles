@@ -9,13 +9,13 @@ const roleDescriptions = {
         category: "departments"
     },
     "Training and Qualification": {
-        description: "To teach new ANRO members and host certs",
-        requirements: "Become an ANRO MR, then request to join this department.",
+        description: "Hosts orientations for new ANRO members and certifications for ANRO staff",
+        requirements: "Reach MR + Apply to the specific department",
         points: "N/A",
         category: "departments"
     },
     "TQUAL Admin": {
-        description: "TQUAL Administration that oversees TQUAL operations.",
+        description: "TQUAL Administration that oversees TQUAL operations",
         requirements: "Unknown",
         points: "N/A",
         category: "departments"
@@ -27,26 +27,26 @@ const roleDescriptions = {
         category: "departments"
     },
     "Senior Instructor": {
-        description: "Middle rank of the TQUAL department",
-        requirements: "Host certs, etc.",
+        description: "Host certifications and orientations for new ANRO members, experienced Instructor",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
     "Instructor": {
-        description: "You're trusted",
+        description: "Host certifications and orientations for new ANRO members",
         requirements: "Finish the probationary phase of being an instructor",
         points: "N/A",
         category: "departments"
     },
     "Prob. Instructor": {
-        description: "You are responsible for orientations and certs.",
-        requirements: "Become an ANRO MR, then request to join this department",
+        description: "Recently joined instructor, tasked with certifications and orientations for new ANRO members",
+        requirements: "Reach MR + Apply to the specific department",
         points: "N/A",
         category: "departments"
     },
     "Logistics & Human Resources": {
         description: "You paper push",
-        requirements: "Become an ANRO MR, then request to join this department.",
+        requirements: "Reach MR + Apply to the specific department",
         points: "N/A",
         category: "departments"
     },
@@ -57,26 +57,26 @@ const roleDescriptions = {
         category: "departments"
     },
     "ANRO Propaganda Official": {
-        description: "Arts and more",
-        requirements: "Go to the subdivision channel, if the division is available, you may apply for it using a format.",
+        description: "Create propaganda materials in the form of artwork, videos, or anything of the sort.",
+        requirements: "Under the subdivision channel, if the division is available, apply for it",
         points: "N/A",
         category: "departments"
     },
     "ANRO Recruitment Official": {
         description: "Oversees recruiting of potential ANRO members and recommend them to join ANRO",
-        requirements: "Go to the subdivision channel, if the division is open, you may use a format with reasoning to apply for it",
+        requirements: "Under the subdivision channel, if the division is available, apply for it",
         points: "N/A",
         category: "departments"
     },
     "ANRO Development Official": {
-        description: "The development sector of ANRO, creating technology and games.",
+        description: "Responsible for working on the game used for orientations.",
         requirements: "Become a MR and wait for ANRD apps to arrive.",
         points: "N/A",
         category: "departments"
     },
     "ANRO Lore Official": {
         description: "Department regarding lore of ANRO",
-        requirements: "Pass apps.",
+        requirements: "Apply and pass specific apps.",
         points: "N/A",
         category: "departments"
     },
@@ -124,7 +124,7 @@ const roleDescriptions = {
     },
     "ANRORD - Researcher": {
         description: "The starting for your journey in ANRORD",
-        requirements: "Go to the subdivision channel, if the division is avaialble to be applied for, use a format and give reasons as to why you want to join.",
+        requirements: "Under the subdivision channel, if the division is available, apply for it",
         points: "N/A",
         category: "departments"
     },
@@ -135,7 +135,7 @@ const roleDescriptions = {
         category: "departments"
     },
     "Super Duper Research(ed) Department": {
-        description: "ITS JUST A JOKE, or is it",
+        description: "ITS JUST A JOKE, or is it?",
         requirements: "Given by MR's or HR's",
         points: "N/A",
         category: "departments"
@@ -147,14 +147,14 @@ const roleDescriptions = {
         category: "departments"
     },
     "Team SCRAMed": {
-        description: "ANRO Games team.",
-        requirements: "Request to join the game.",
+        description: "ANRO Games team",
+        requirements: "Request to join the game",
         points: "N/A",
         category: "departments"
     },
     "Team Synced": {
         description: "ANRO Games team",
-        requirements: "Request to join the game.",
+        requirements: "Request to join the game",
         points: "N/A",
         category: "departments"
     },
@@ -168,13 +168,13 @@ const roleDescriptions = {
     // Awards
     "Galaxy Sack": {
         description: "Prestigious award for exceptional service to ANRO",
-        requirements: "Outstanding contribution + ANROCOM nomination",
+        requirements: "Outstanding contribution + ANROCOM/HR nomination",
         points: "N/A",
         category: "awards"
     },
     "Diamond Sack": {
         description: "High honor award for distinguished service",
-        requirements: "Significant achievement + ANROCOM recommendation",
+        requirements: "Significant achievement + ANROCOM/HR recommendation",
         points: "N/A",
         category: "awards"
     },
@@ -192,7 +192,7 @@ const roleDescriptions = {
     },
     "Naramo Massacre": {
         description: "Witness the mass murdering of fellow ROs, Rest in peace!",
-        requirements: "Join a lore event regarding this event.",
+        requirements: "Join a lore event regarding this event",
         points: "N/A",
         category: "awards"
     },
@@ -203,8 +203,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "The Last Stand": {
-        description: "Fought till your last breath for the plant.",
-        requirements: "No longer giveable.",
+        description: "Fought till your last breath for the plant",
+        requirements: "No longer obtainable",
         points: "N/A",
         category: "awards"
     },
@@ -216,13 +216,13 @@ const roleDescriptions = {
     },
     "Pending ANRODF": {
         description: "Pending approval for ANRODF tryouts",
-        requirements: "Send dx gamepass proof and get accepted",
+        requirements: "Send DX-21 gamepass proof and get accepted",
         points: "N/A",
         category: "awards"
     },
     "V2 Naramo Raider": {
         description: "Be on the WN team during the V2 Beta test with developers.",
-        requirements: "No longer giveable.",
+        requirements: "No longer obtainable",
         points: "N/A",
         category: "awards"
     },
@@ -233,7 +233,7 @@ const roleDescriptions = {
         category: "awards"
     },
     "EVIL department": {
-        description: "the department of EVIL...",
+        description: "The department of EVIL...",
         requirements: "Request under the Enlistment thread under #officer-posting",
         points: "N/A",
         category: "awards"
@@ -417,14 +417,14 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Junior Shift Supervisor": {
-        description: "Probationary SU.",
-        requirements: "Pass the MR exam.",
+        description: "Probationary SU",
+        requirements: "Pass the MR exam",
         points: "N/A",
         category: "ranks"
     },
     "Faction Diplomat": {
         description: "Represents ANRO in diplomatic relations",
-        requirements: "Be a HR in any Naramo faction, eg, NFSF, NDC, 308th, and NES.",
+        requirements: "Be a HR in any Naramo faction, eg, NFSF, NDC, 308th, and NES",
         points: "N/A",
         category: "ranks"
     },
@@ -504,7 +504,7 @@ const roleDescriptions = {
     // Certifications
     "Formation Certification": {
         description: "Be able to do wedges and faces",
-        requirements: "No longer obtainable - Pass a formation test by burger (retired) ",
+        requirements: "No longer obtainable - Pass a formation test by burger (retired)",
         points: "",
         category: "certifications"
     },
@@ -540,25 +540,25 @@ const roleDescriptions = {
     },
     "Emergency Certified": {
         description: "Qualified to handle emergency situations and procedures",
-        requirements: "Do a SCRAM test, then take a exam.",
+        requirements: "Do a SCRAM test, then pass an exam",
         points: "",
         category: "certifications"
     },
     "Turbine Certified": {
         description: "Certified to operate turbine systems",
-        requirements: "Sync a turbine successfuly.",
+        requirements: "Sync a turbine successfuly",
         points: "",
         category: "certifications"
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
-        requirements: "Do three solo T3s for this.",
+        requirements: "Do three solo T3s for this",
         points: "",
         category: "certifications"
     },
     "Sleep Cert": {
         description: "Sleep in call... for a long time...",
-        requirements: "Sleep in a call for 24 hours.",
+        requirements: "Sleep in a call for 24 hours",
         points: "",
         category: "certifications"
     }
