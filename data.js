@@ -9,31 +9,31 @@ const roleDescriptions = {
         category: "departments"
     },
     "Training and Qualification": {
-        description: "Hosts orientations for new ANRO members and certifications for ANRO staff",
+        description: "ANRO personnel tasked with hosting orientations for new ANRO members and certifications for ANRO staff",
         requirements: "Reach MR + Apply to the specific department",
         points: "N/A",
         category: "departments"
     },
     "TQUAL Admin": {
-        description: "TQUAL Administration that oversees TQUAL operations",
-        requirements: "Unknown",
+        description: "Command Staff/HR appointed for the purpose of managing TQUAL",
+        requirements: "Appointed by AD",
         points: "N/A",
         category: "departments"
     },
     "TQUAL Officer": {
-        description: "Officer of TQUAL",
-        requirements: "Unknown",
+        description: "Lower ranking administration position within TQUAL",
+        requirements: "Appointed by AD or TQUAL Admin",
         points: "N/A",
         category: "departments"
     },
     "Senior Instructor": {
-        description: "Host certifications and orientations for new ANRO members, experienced Instructor",
+        description: "High rank instructor that hosts and orientations for new ANRO members",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "Instructor": {
-        description: "Host certifications and orientations for new ANRO members",
+        description: "ANRO personnel that hosts certifications and orientations for new ANRO members",
         requirements: "Finish the probationary phase of being an instructor",
         points: "N/A",
         category: "departments"
@@ -51,13 +51,13 @@ const roleDescriptions = {
         category: "departments"
     },
     "Employee Engagement": {
-        description: "Hosting gamenights to liven up ANRO's spirit",
+        description: "Employees that host gamenights to liven up ANRO's spirit",
         requirements: "Become an ANRO MR, then request to join this department",
         points: "N/A",
         category: "departments"
     },
     "ANRO Propaganda Official": {
-        description: "Create propaganda materials in the form of artwork, videos, or anything of the sort.",
+        description: "Creators of propaganda materials in the form of artwork, videos, or anything of the sort.",
         requirements: "Under the subdivision channel, if the division is available, apply for it",
         points: "N/A",
         category: "departments"
@@ -87,7 +87,7 @@ const roleDescriptions = {
         category: "departments"
     },
     "Evil dept. Voluntary member": {
-        description: "You are an evil person, destroy the plant.",
+        description: "Evil operators tasked with the destruction the plant.",
         requirements: "React to a message which will grant you this role",
         points: "N/A",
         category: "departments"
@@ -99,37 +99,37 @@ const roleDescriptions = {
         category: "departments"
     },
     "Director of Research": {
-        description: "",
+        description: "Highest authority of the subdepartment responsible for collecting data from the reactor for the creation of procedures and documentation",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "Deputy Director of Research": {
-        description: "",
+        description: "Senior executive who supports and reports to the Director, acting as the second in command of the research department",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "ANRORD - Chief Researcher": {
-        description: "",
+        description: "High rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "ANRORD - Senior Researcher": {
-        description: "",
+        description: "Middle rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "ANRORD - Researcher": {
-        description: "The starting for your journey in ANRORD",
+        description: "Low rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Under the subdivision channel, if the division is available, apply for it",
         points: "N/A",
         category: "departments"
     },
     "Plant Maintenance (Bot Developer)": {
-        description: "Development team for the John Clanker bot",
+        description: "Developer for the John Clanker bot",
         requirements: "Unknown",
         points: "N/A",
         category: "departments"
@@ -273,8 +273,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "HR - HIGH RANK": {
-        description: "HR for ANRO.",
-        requirements: "Be under a HR role.",
+        description: "HR for ANRO",
+        requirements: "Be under a HR role",
         points: "N/A",
         category: "ranks"
     },
@@ -286,13 +286,13 @@ const roleDescriptions = {
     },
     "SIB": {
         description: "Diplomat role",
-        requirements: "Be part of SIB.",
+        requirements: "Be part of SIB",
         points: "N/A",
         category: "ranks"
     },
     "Lord Regent God-Emperor Copyright of the Thousand Suns and Million MRs": {
-        description: "Future lore event.",
-        requirements: "Unknown.",
+        description: "Role for Copy, an old Inspector General that retired",
+        requirements: "No longer obtainable",
         points: "N/A",
         category: "ranks"
     },
@@ -484,7 +484,7 @@ const roleDescriptions = {
     },
     "NFSF Volunteer": {
         description: "Security for orientations, have limited jurdisiction and have direct contact to IA & DC&E",
-        requirements: "Be a NFSF member in NFSF.",
+        requirements: "Be a NFSF member in NFSF",
         points: "N/A",
         category: "ranks"
     },
@@ -515,32 +515,32 @@ const roleDescriptions = {
         category: "certifications"
     },
     "Supervisor Certified": {
-        description: "Able to supervise - future SU!",
+        description: "Able to supervise reactor operations - future Supervisor!",
         requirements: "Complete the supervisor exam.",
         points: "",
         category: "certifications"
     },
     "Supervisor Eligible": {
-        description: "Able to do the supervisor exam.",
-        requirements: "Reach a certain rank to get this role.",
+        description: "Able to do the supervisor exam",
+        requirements: "Reach a certain rank (TBD) to get this role.",
         points: "",
         category: "certifications"
     },
     "Grid Certified": {
         description: "Certified to operate electrical grid systems",
-        requirements: "Setup the grid, take a exam.",
+        requirements: "Setup the grid, take an exam",
         points: "",
         category: "certifications"
     },
     "Evil Certified": {
         description: "Why are you so EVIL!",
-        requirements: "Do something evil authorized by Z3usfury.",
+        requirements: "Do something evil authorized by Z3usfury",
         points: "",
         category: "certifications"
     },
     "Emergency Certified": {
         description: "Qualified to handle emergency situations and procedures",
-        requirements: "Do a SCRAM test, then pass an exam",
+        requirements: "Perform a succesfull SCRAM test, then pass an exam",
         points: "",
         category: "certifications"
     },
@@ -552,7 +552,7 @@ const roleDescriptions = {
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
-        requirements: "Do three solo T3s for this",
+        requirements: "Perform 3 solo T3s",
         points: "",
         category: "certifications"
     },
