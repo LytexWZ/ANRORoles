@@ -100,25 +100,25 @@ const roleDescriptions = {
     },
     "Director of Research": {
         description: "Highest authority of the subdepartment responsible for collecting data from the reactor for the creation of procedures and documentation",
-        requirements: "",
+        requirements: "Appointed by TQUAL Assistant Director",
         points: "N/A",
         category: "departments"
     },
     "Deputy Director of Research": {
         description: "Senior executive who supports and reports to the Director, acting as the second in command of the research department",
-        requirements: "",
+        requirements: "Appointed by Director of Research",
         points: "N/A",
         category: "departments"
     },
     "ANRORD - Chief Researcher": {
         description: "High rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
-        requirements: "",
+        requirements: "Be MR and request promotion. (Hosting position)",
         points: "N/A",
         category: "departments"
     },
     "ANRORD - Senior Researcher": {
         description: "Middle rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
-        requirements: "",
+        requirements: "Be active and contribute within the department",
         points: "N/A",
         category: "departments"
     },
@@ -179,14 +179,14 @@ const roleDescriptions = {
         category: "awards"
     },
     "Film Commendation 1st Class": {
-        description: "Top-tier recognition for media contributions",
-        requirements: "",
+        description: "Awarded to those who allocated hours of their lives to render assistance to the ANRO training videos",
+        requirements: "Contrubute by creating the intro’s, transitions, endings, and thumbnails for the training videos (No longer obtainable)",
         points: "N/A",
         category: "awards"
     },
     "Film Commendation 2nd Class": {
-        description: "Recognition for quality media contributions",
-        requirements: "",
+        description: "Awarded to those who contributed to the ANRO training videos",
+        requirements: "Assisted with filming and/or acting for the training videos (No longer obtainable)",
         points: "N/A",
         category: "awards"
     },
