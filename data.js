@@ -1,5 +1,4 @@
-// Data structures for ANRO Portal
-
+//Data
 const roleDescriptions = {
     // Departments
     "Administration Director": {
@@ -21,7 +20,7 @@ const roleDescriptions = {
         category: "departments"
     },
     "TQUAL Officer": {
-        description: "Lower ranking administration position within TQUAL",
+        description: "Lower ranking Training & Qualification team member",
         requirements: "Appointed by AD or TQUAL Admin",
         points: "N/A",
         category: "departments"
@@ -110,19 +109,19 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "ANRORD - Chief Researcher": {
+    "ANRO R&D - Chief Researcher": {
         description: "High rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Be MR and request promotion. (Hosting position)",
         points: "N/A",
         category: "departments"
     },
-    "ANRORD - Senior Researcher": {
+    "ANRO R&D - Senior Researcher": {
         description: "Middle rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Be active and contribute within the department",
         points: "N/A",
         category: "departments"
     },
-    "ANRORD - Researcher": {
+    "ANRO R&D - Researcher": {
         description: "Low rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Under the subdivision channel, if the division is available, apply for it",
         points: "N/A",
@@ -345,8 +344,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Command Staff": {
-        description: "",
-        requirements: "",
+        description: "Assisting in administrative work on their respective department.",
+        requirements: "Handpicked by ANROCOM when deemed necessary",
         points: "N/A",
         category: "ranks"
     },
@@ -495,8 +494,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Mods": {
-        description: "Moderation team member with enforcement powers",
-        requirements: "",
+        description: "Moderation team (IA department), deals with all reports of misconduct within ANRO",
+        requirements: "Application & Passing probationary phase",
         points: "N/A",
         category: "ranks"
     },
@@ -561,5 +560,85 @@ const roleDescriptions = {
         requirements: "Sleep in a call for 24 hours",
         points: "",
         category: "certifications"
+    }
+};
+
+// Point earning activities
+const pointActivities = {
+    certifications: {
+        min: 4,
+        max: 8,
+        description: "Earning a certification"
+    },
+    officialShifts: {
+        points: 5,
+        description: "Official shifts"
+    },
+    gameNights: {
+        points: 2,
+        description: "Game nights participation"
+    },
+    tier3Shifts: {
+        points: 1,
+        description: "Tier 3 shifts"
+    },
+    extraPoints: {
+        min: 2,
+        max: 4,
+        description: "Extra point activities"
+    }
+};
+
+// Rank progression requirements
+const rankRequirements = {
+    "New Applicant": {
+        nextRank: "Junior Reactor Operator",
+        requirements: {
+            description: "Pass orientation exam",
+            points: 0,
+            shifts: 0,
+            certifications: [],
+            special: "Complete orientation exam"
+        }
+    },
+    "Junior Reactor Operator": {
+        nextRank: "Reactor Operator", 
+        requirements: {
+            description: "Newly appointed personnel",
+            points: 25,
+            shifts: 2,
+            certifications: ["Turbine Certified", "Solo Certified"],
+            special: "N/A"
+        }
+    },
+    "Reactor Operator": {
+        nextRank: "Nuclear Engineer",
+        requirements: {
+            description: "ANRO personnel that posseses basic familiarity with NARAMO systems",
+            points: 75,
+            shifts: 10,
+            certifications: ["Emergency Certified", "Grid Certified"],
+            special: "N/A"
+        }
+    },
+    "Nuclear Engineer": {
+        nextRank: "Senior Reactor Operator",
+        requirements: {
+            description: "Specialists in reactor operations with advanced knowledge",
+            points: 125,
+            shifts: 15,
+            certifications: ["Supervisor Certified"],
+            special: "Pass an application for SRO"
+        }
+    },
+    "Senior Reactor Operator": {
+        nextRank: "Shift Supervisor",
+        requirements: {
+            description: "Competent personnel with leadership capabilities",
+            points: 175,
+            shifts: 20,
+            certifications: [],
+            special: "Pass supervisor application"
+        }
     }
 };
