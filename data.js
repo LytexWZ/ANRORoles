@@ -302,20 +302,20 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Director of Reactor Operations": {
-        description: "",
-        requirements: "",
+        description: "Member of ANROCOM, oversees all operations and departments within ANRO",
+        requirements: "Handpicked by ANROCOM",
         points: "N/A",
         category: "ranks"
     },
     "Inspector General": {
-        description: "",
-        requirements: "",
+        description: "Member of ANROCOM, oversees all operations and departments within ANRO. In charge of MR management ",
+        requirements: "Handpicked by ANROCOM",
         points: "N/A",
         category: "ranks"
     },
     "Assistant Director for Human Resources and Internal Affairs": {
-        description: "",
-        requirements: "",
+        description: "Member of ANROCOM, oversees the department of Internal Affairs.",
+        requirements: "Handpicked by ANROCOM",
         points: "N/A",
         category: "ranks"
     },
@@ -350,7 +350,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "John ANRO": {
-        description: "",
+        description: "Role for previous HR John ANRO, known for his dedication and love for ANRO",
         requirements: "",
         points: "N/A",
         category: "ranks"
@@ -362,8 +362,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Federal Government": {
-        description: "",
-        requirements: "",
+        description: "Role given to Naramo developers and moderators",
+        requirements: "Be a member of NAMS or a Naramo developer and request for the role",
         points: "N/A",
         category: "ranks"
     },
@@ -387,7 +387,7 @@ const roleDescriptions = {
     },
     "BEST MR AWARD": {
         description: "Recognition for outstanding middle rank performance",
-        requirements: "",
+        requirements: "Be voted Best MR",
         points: "N/A",
         category: "ranks"
     },
@@ -411,7 +411,7 @@ const roleDescriptions = {
     },
     "Shift Supervisor": {
         description: "Supervises shift operations and crew management",
-        requirements: "20+ shifts + supervisor application + 175+ points",
+        requirements: "20+ shifts + supervisor application + 175+ points + Passed probationary phase",
         points: "175",
         category: "ranks"
     },
@@ -429,7 +429,7 @@ const roleDescriptions = {
     },
     "Super duper cool donator people": {
         description: "Special recognition for generous donors",
-        requirements: "Significant donation + community appreciation",
+        requirements: "Donation to NS charity event. Unobtainable ",
         points: "N/A",
         category: "ranks"
     },
@@ -446,8 +446,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "LR - LOW RANK": {
-        description: "Entry-level operational rank",
-        requirements: "Basic training completion",
+        description: "Entry-level operational rank. Contains most of ANRO",
+        requirements: "Pass an orientation into ANRO",
         points: "N/A",
         category: "ranks"
     },
@@ -483,13 +483,13 @@ const roleDescriptions = {
     },
     "NFSF Volunteer": {
         description: "Security for orientations, have limited jurdisiction and have direct contact to IA & DC&E",
-        requirements: "Be a NFSF member in NFSF",
+        requirements: "Be an NFSF member",
         points: "N/A",
         category: "ranks"
     },
     "New Applicant": {
         description: "New member awaiting orientation and training",
-        requirements: "Application acceptance",
+        requirements: "Join the ANRO Discord server",
         points: "0",
         category: "ranks"
     },
@@ -514,15 +514,15 @@ const roleDescriptions = {
         category: "certifications"
     },
     "Supervisor Certified": {
-        description: "Able to supervise reactor operations - future Supervisor!",
-        requirements: "Complete the supervisor exam.",
+        description: "Able to occupy supervisor positions in ANRO and during shifts. Required for promotion to SRO.",
+        requirements: "Complete the Supervisor Exam + Cohost all 4 main certs and a shift",
         points: "",
         category: "certifications"
     },
     "Supervisor Eligible": {
-        description: "Able to do the supervisor exam",
-        requirements: "Reach a certain rank (TBD) to get this role.",
-        points: "",
+        description: "Able to cohost shifts and take the Supervisor Certification exam when ready.",
+        requirements: "Nuclear Engineer rank + 100 points + Emergency, Turbine, Solo, and Grid certifications + Not a member of RD (HR can make exception)",
+        points: "100",
         category: "certifications"
     },
     "Grid Certified": {
