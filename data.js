@@ -9,7 +9,7 @@ const roleDescriptions = {
     },
     "Training and Qualification": {
         description: "ANRO personnel tasked with hosting orientations for new ANRO members and certifications for ANRO staff",
-        requirements: "Reach MR + Apply to the specific department",
+        requirements: "Reach MR + Apply to TQUAL",
         points: "N/A",
         category: "departments"
     },
@@ -39,7 +39,7 @@ const roleDescriptions = {
     },
     "Prob. Instructor": {
         description: "Recently joined instructor, tasked with certifications and orientations for new ANRO members",
-        requirements: "Reach MR + Apply to the specific department",
+        requirements: "Reach MR + Apply to TQUAL",
         points: "N/A",
         category: "departments"
     },
@@ -74,7 +74,7 @@ const roleDescriptions = {
         category: "departments"
     },
     "ANRO Lore Official": {
-        description: "Department who creates the lore of ANRO and hosts lore events for ANRO.",
+        description: "Department which creates the lore of ANRO and hosts lore events for ANRO.",
         requirements: "Apply and pass specific apps.",
         points: "N/A",
         category: "departments"
@@ -92,31 +92,31 @@ const roleDescriptions = {
         category: "departments"
     },
     "NICE operator": {
-        description: "You are very kind, help others.",
+        description: "You are very kind!",
         requirements: "React to a message which will grant you this role.",
         points: "N/A",
         category: "departments"
     },
     "Director of Research": {
-        description: "Highest authority of the subdepartment responsible for collecting data from the reactor for the creation of procedures and documentation",
+        description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
         requirements: "Appointed by TQUAL Assistant Director",
         points: "N/A",
         category: "departments"
     },
     "Deputy Director of Research": {
-        description: "Senior executive who supports and reports to the Director, acting as the second in command of the research department",
+        description: "Senior executive who supports and reports to the Director of Research, acting as the second in command of the Research Department",
         requirements: "Appointed by Director of Research",
         points: "N/A",
         category: "departments"
     },
     "ANRO R&D - Chief Researcher": {
-        description: "High rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
+        description: "High rank inside the Research Department, tasked with hosing research sessions for R&D to research during.",
         requirements: "Be MR and request promotion. (Hosting position)",
         points: "N/A",
         category: "departments"
     },
     "ANRO R&D - Senior Researcher": {
-        description: "Middle rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
+        description: "Middle rank inside the Research Department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Be active and contribute within the department",
         points: "N/A",
         category: "departments"
@@ -141,19 +141,19 @@ const roleDescriptions = {
     },
     "Research(ed) Department": {
         description: "Given to people who do stupid things as a PUNISHMENT.",
-        requirements: "Given to people who do stupid things.",
+        requirements: "Be stupid. You do NOT want this role.",
         points: "N/A",
         category: "departments"
     },
     "Team SCRAMed": {
         description: "ANRO Games team",
-        requirements: "Request to join the game",
+        requirements: "Request to join the ANRO games",
         points: "N/A",
         category: "departments"
     },
     "Team Synced": {
         description: "ANRO Games team",
-        requirements: "Request to join the game",
+        requirements: "Request to join the ANRO games",
         points: "N/A",
         category: "departments"
     },
@@ -173,7 +173,7 @@ const roleDescriptions = {
     },
     "Diamond Sack": {
         description: "High honor award for distinguished service",
-        requirements: "Significant achievement + ANROCOM/HR recommendation",
+        requirements: "Significant contribution + ANROCOM/HR nomination",
         points: "N/A",
         category: "awards"
     },
@@ -191,13 +191,13 @@ const roleDescriptions = {
     },
     "Naramo Massacre": {
         description: "Witness the mass murdering of fellow ROs, Rest in peace!",
-        requirements: "Join a lore event regarding this event",
+        requirements: "Awarded for attending a Lore event. No longer obtainable",
         points: "N/A",
         category: "awards"
     },
     "Victory Against 1NF Ribbon": {
-        description: "Victory ribbon for successful operations against 1NF",
-        requirements: "Participation in anti-1NF operation",
+        description: "Victory ribbon for members of the raid against 1NF, which ANRO won.",
+        requirements: "Attended the raid between ANRO and 1NF as ANRO. No longer obtainable",
         points: "N/A",
         category: "awards"
     },
@@ -214,8 +214,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "Pending ANRODF": {
-        description: "Pending approval for ANRODF tryouts",
-        requirements: "Send DX-21 gamepass proof and get accepted in #ANRODF-signup",
+        description: "ANRO members verified to have a DX-21. Allowed to attend ANRODF tryouts.",
+        requirements: "Send DX-21 ownership proof and get accepted in #ANRODF-signup",
         points: "N/A",
         category: "awards"
     },
@@ -247,7 +247,7 @@ const roleDescriptions = {
     },
     "Server Administrator": {
         description: "Technical administrator with full server access",
-        requirements: "Handpicked",
+        requirements: "Given by ANROCOM to extremely high ranking and trusted members of ANRO",
         points: "N/A",
         category: "special"
     },
@@ -265,12 +265,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Chief Executive Officer": {
-        description: "No longer used.",
-        requirements: "No longer used.",
-        points: "N/A",
-        category: "ranks"
-    },
     "HR - HIGH RANK": {
         description: "High Rank members of ANRO. Command Staff+",
         requirements: "Handpicked by ANROCOM, promoted from MR.",
@@ -278,14 +272,14 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Operations Assistant": {
-        description: "",
-        requirements: "",
+        description: "Bot's of ANRO's Discord.",
+        requirements: "Be a Discord bot.",
         points: "N/A",
         category: "ranks"
     },
     "Professional Standards": {
-        description: "Unknown",
-        requirements: "Unknown",
+        description: "Very professional members of HR.",
+        requirements: "Handpicked",
         points: "N/A",
         category: "ranks"
     },
@@ -344,14 +338,14 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Moderation Oversight": {
-        description: "",
+        description: "Oversight of the Moderation team.",
         requirements: "",
         points: "N/A",
         category: "ranks"
     },
     "Federal Government": {
         description: "Role given to Naramo developers and moderators",
-        requirements: "Be a member of NAMS or an 8NEC member and request for the role",
+        requirements: "Be a member of NAMS (Naramo Adminstration and Moderation Services) or 8NEC and request for the role",
         points: "N/A",
         category: "ranks"
     },
@@ -369,7 +363,7 @@ const roleDescriptions = {
     },
     "Retired HR": {
         description: "Honorary title for retired HR personnel",
-        requirements: "Be a former HR who's retired",
+        requirements: "Former HR status + Currently retired",
         points: "N/A",
         category: "ranks"
     },
@@ -381,7 +375,7 @@ const roleDescriptions = {
     },
     "MR - MIDDLE RANK": {
         description: "Middle management rank with operational responsibilities",
-        requirements: "",
+        requirements: "Pass an SU application after reaching SRO.",
         points: "N/A",
         category: "ranks"
     },
@@ -411,7 +405,7 @@ const roleDescriptions = {
     },
     "Faction Diplomat": {
         description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
-        requirements: "Be a HR in any Naramo faction, eg, NFSF, NDC, 308th, and NES",
+        requirements: "Be a HR in any other Naramo faction, eg, NFSF, NDC, 308th, and NES",
         points: "N/A",
         category: "ranks"
     },
@@ -447,24 +441,24 @@ const roleDescriptions = {
     },
     "Senior Reactor Operator": {
         description: "Senior LR position. Requires all main certifications.",
-        requirements: "15+ shifts + supervisor certification",
+        requirements: "15+ shifts + Supervisor Certification",
         points: "N/A",
         category: "ranks"
     },
     "Nuclear Engineer": {
-        description: "Expierenced reactor operator position",
+        description: "Expierenced LR position.",
         requirements: "5 solo T3 shifts + 10+ shifts + emergency & grid cert + 75+ points",
         points: "75",
         category: "ranks"
     },
     "Reactor Operator": {
-        description: "Intermediate reactor operator position",
-        requirements: "25+ points + turbine & solo cert + 2+ shifts",
+        description: "Intermediate LR position, capable of operating the reactor alone.",
+        requirements: "Minimum of 25 points + Turbine & Solo Certifications + 2+ Shifts",
         points: "25",
         category: "ranks"
     },
     "Junior Reactor Operator": {
-        description: "Entry-level reactor operator position",
+        description: "Entry-level LR position, with minimal experience.",
         requirements: "Orientation exam completion",
         points: "0",
         category: "ranks"
@@ -478,7 +472,7 @@ const roleDescriptions = {
     "New Applicant": {
         description: "New member awaiting orientation and training",
         requirements: "Join the ANRO Discord server",
-        points: "0",
+        points: "N/A",
         category: "ranks"
     },
     "Mods": {
@@ -491,20 +485,20 @@ const roleDescriptions = {
     // Certifications
     "Formation Certification": {
         description: "Be able to do wedges and faces",
-        requirements: "No longer obtainable - Pass a formation test by burger (retired)",
-        points: "",
+        requirements: "Pass a Formation Certification hosted by Burger (retired) or Robloxer.",
+        points: "N/A",
         category: "certifications"
     },
     "Spooky Certified": {
-        description: "Specialized certification for spooky operations",
+        description: "Specialized certification for spooky operations. Operates the SpOoOoOoky grid during Halloween!",
         requirements: "Complete the SpOoOoOoky exam!",
-        points: "",
+        points: "N/A",
         category: "certifications"
     },
     "Supervisor Certified": {
         description: "Able to occupy supervisor positions in ANRO and during shifts. Required for promotion to SRO.",
         requirements: "Complete the Supervisor Exam + Cohost all 4 main certs and a shift",
-        points: "",
+        points: "N/A",
         category: "certifications"
     },
     "Supervisor Eligible": {
@@ -516,37 +510,37 @@ const roleDescriptions = {
     "Grid Certified": {
         description: "Certified to operate electrical grid systems",
         requirements: "Setup the grid, take an exam",
-        points: "",
+        points: "N/A",
         category: "certifications"
     },
     "Evil Certified": {
         description: "Why are you so EVIL!",
         requirements: "Do something evil authorized by Z3usfury",
-        points: "",
+        points: "N/A",
         category: "certifications"
     },
     "Emergency Certified": {
         description: "Qualified to handle emergency situations and procedures",
         requirements: "Perform a succesfull SCRAM test, then pass an exam",
-        points: "",
+        points: "N/A",
         category: "certifications"
     },
     "Turbine Certified": {
         description: "Certified to operate turbine systems",
-        requirements: "Sync a turbine successfuly",
-        points: "",
+        requirements: "Sync a turbine successfuly during a Turbine Certification session.",
+        points: "N/A",
         category: "certifications"
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
         requirements: "Perform 3 solo T3s",
-        points: "",
+        points: "N/A",
         category: "certifications"
     },
     "Sleep Cert": {
         description: "Sleep in call... for a long time...",
         requirements: "Sleep in a call for 24 hours",
-        points: "",
+        points: "N/A",
         category: "certifications"
     }
 };
