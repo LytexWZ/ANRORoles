@@ -68,7 +68,7 @@ const roleDescriptions = {
         category: "departments"
     },
     "ANRO Development Official": {
-        description: "Responsible for working on the game used for orientations.",
+        description: "Responsible for working on the ANRO multicenter, ANRO's game for orientation.",
         requirements: "Become a MR and wait for ANRD apps to arrive.",
         points: "N/A",
         category: "departments"
@@ -86,14 +86,14 @@ const roleDescriptions = {
         category: "departments"
     },
     "Evil dept. Voluntary member": {
-        description: "Evil operators tasked with the destruction the plant.",
-        requirements: "React to a message which will grant you this role",
+        description: "Evil operators tasked with destructions of the plant!",
+        requirements: "Request for Evil Department in the thread titled 'Enlistment' found in #officer-posting.",
         points: "N/A",
         category: "departments"
     },
     "NICE operator": {
         description: "You are very kind!",
-        requirements: "React to a message which will grant you this role.",
+        requirements: "Request for Nice Operator in the thread titled 'Enlistment' found in #officer-posting.",
         points: "N/A",
         category: "departments"
     },
@@ -233,7 +233,7 @@ const roleDescriptions = {
     },
     "EVIL department": {
         description: "The department of EVIL...",
-        requirements: "Request under the Enlistment thread under #officer-posting",
+        requirements: "Apply to Evil Department when applications were out. Unobatainable?",
         points: "N/A",
         category: "awards"
     },
@@ -351,7 +351,7 @@ const roleDescriptions = {
     },
     "Most Memorable Retired HR": {
         description: "Honorary title for distinguished retired HR personnel",
-        requirements: "Exceptional HR service + retirement status",
+        requirements: "Be voted Most Memorable Retired HR",
         points: "N/A",
         category: "ranks"
     },
@@ -514,8 +514,8 @@ const roleDescriptions = {
         category: "certifications"
     },
     "Evil Certified": {
-        description: "Why are you so EVIL!",
-        requirements: "Do something evil authorized by Z3usfury",
+        description: "You are super EVIL..",
+        requirements: "Attend an Evil Certification. These are rarely hosted.",
         points: "N/A",
         category: "certifications"
     },
