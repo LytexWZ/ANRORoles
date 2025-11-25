@@ -2,8 +2,8 @@
 const roleDescriptions = {
     // Departments
     "ANROSOC": { // WIP
-        description: "",
-        requirements: "",
+        description: "The topfraggers of ANRO.",
+        requirements: "Get noticed doing very well by a higher up during a DT/CT.",
         points: "N/A",
         category: "departments"
     },
@@ -68,8 +68,8 @@ const roleDescriptions = {
         category: "departments"
     },
     "ANRO Ribbon Maker": { // WIP
-        description: "",
-        requirements: "",
+        description: "LHR members that make ribbons.",
+        requirements: "Be LHR, MR+ & request to become a Ribbon Maker.",
         points: "N/A",
         category: "departments"
     },
@@ -80,7 +80,7 @@ const roleDescriptions = {
         category: "departments"
     },
     "IU | Operations Inspector": { // WIP
-        description: "",
+        description: "S",
         requirements: "",
         points: "N/A",
         category: "departments"
@@ -193,12 +193,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Apollo": {
-        description: "Unknown",
-        requirements: "Unknown",
-        points: "N/A",
-        category: "departments"
-    },
 
     // Awards
     "Quantum Sack": { // WIP
@@ -268,8 +262,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "Nice": {
-        description: "Very nice.",
-        requirements: "Be kind",
+        description: "Very nice. Given to djsogge for getting the 69th reaction to an announcement. Given by former ANROCOM member danielvj1",
+        requirements: "Unobtainable",
         points: "N/A",
         category: "awards"
     },
