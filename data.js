@@ -1,7 +1,7 @@
 //Data
 const roleDescriptions = {
     // Departments
-    "ANROSOC": { // WIP
+    "ANROSOC": {
         description: "The topfraggers of ANRO.",
         requirements: "Get noticed doing very well by a higher up during a DT/CT.",
         points: "N/A",
@@ -195,12 +195,13 @@ const roleDescriptions = {
     },
 
     // Awards
-    "Quantum Sack": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "awards"
-    },
+// Commented out; Hasn't been given out before AFAIK. Will be changed     
+//    "Quantum Sack": { // WIP
+//        description: "",
+//        requirements: "",
+//        points: "N/A",
+//        category: "awards"
+//    },
     "Galaxy Sack": {
         description: "Prestigious award for exceptional service to ANRO",
         requirements: "Outstanding contribution + ANROCOM/HR nomination",
@@ -301,12 +302,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "THE BEST OM AWARD": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
+// Commented out; OM isn't OM anymore. Will be changed later    
+//    "THE BEST OM AWARD": { // WIP
+//        description: "",
+//        requirements: "",
+//        points: "N/A",
+//        category: "ranks"
+//    },
     "HR - HIGH RANK": {
         description: "High Rank members of ANRO. Command Staff+",
         requirements: "Handpicked by ANROCOM, promoted from MR.",
@@ -331,7 +333,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Acting Director": { // WIP
+    "Acting Director": {
         description: "Temporarily appointed by the DRO or SP to act as the DRO.",
         requirements: "Handpicked by the DRO or SP.",
         points: "N/A",
@@ -379,9 +381,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "ANROCOM Clerk": { // WIP
-        description: "",
-        requirements: "",
+    "ANROCOM Clerk": {
+        description: "ANRO Command Staff who assists with all departments. Not offically a member of ANROCOM.",
+        requirements: "Appointed by ANROCOM",
         points: "N/A",
         category: ""
     },
@@ -397,20 +399,20 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Facton Oversight": { // WIP
-        description: "",
-        requirements: "",
+    "Facton Oversight": {
+        description: "Overseers of ANRO. Given to the Naramo owner(s).",
+        requirements: "Unknown",
         points: "N/A",
         category: "ranks"
     },
     "Federal Government": {
-        description: "Role given to Naramo Devs and select Game Staff",
-        requirements: "Be a member of 8NEC and request the role",
+        description: "Role given to high ranking developers and officals who manage Naramo.",
+        requirements: "Recieve authorization from Blaley or PupNetx and request for the role in #special-role-request",
         points: "N/A",
         category: "ranks"
     },
-    "Naramo Moderator": { // WIP
-        description: "Moderators of naramo.",
+    "Naramo Moderator": {
+        description: "NAMS members. Moderation team of Naramo.",
         requirements: "Be NAMS and request for the role in #special-role-request",
         points: "N/A",
         category: "ranks"
@@ -475,12 +477,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "super duper cool orange role": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
     "Super duper cool donator people": {
         description: "Special recognition for generous donors",
         requirements: "Donation to NS charity event. Unobtainable",
@@ -493,9 +489,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "BEST LR AWARD": { // WIP
-        description: "",
-        requirements: "",
+    "BEST LR AWARD": {
+        description: "Given to the person who is voted Best LR.",
+        requirements: "Be voted Best LR on one of man_ofcan's polls.",
         points: "N/A",
         category: "ranks"
     },
