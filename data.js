@@ -193,12 +193,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Apollo": {
-        description: "Unknown",
-        requirements: "Unknown",
-        points: "N/A",
-        category: "departments"
-    },
 
     // Awards
     "Quantum Sack": { // WIP
@@ -268,8 +262,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "Nice": {
-        description: "Very nice.",
-        requirements: "Be kind",
+        description: "Very nice. Given to IWantACopyrighStrike for being the 69th nurse in GSMC.",
+        requirements: "Unobtainable",
         points: "N/A",
         category: "awards"
     },
