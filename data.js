@@ -461,13 +461,13 @@ const roleDescriptions = {
     },
     "Shift Supervisor": {
         description: "Supervises shift operations and crew management",
-        requirements: "20+ Shifts + Supervisor Application + 175+ Points + passed probationary phase",
+        requirements: "Pass the probationary phase.",
         points: "175",
         category: "ranks"
     },
     "Junior Shift Supervisor": {
         description: "Probationary SU",
-        requirements: "Pass the MR exam",
+        requirements: "Pass an MR application + 20+ Shifts + 175+ Points",
         points: "N/A",
         category: "ranks"
     },
@@ -509,7 +509,7 @@ const roleDescriptions = {
     },
     "Noobic Military Police": {
         description: "Military Police which assist with moderating Naramo.",
-        requirements: "Get accepted into NMP",
+        requirements: "NMP Patrol Officer+ and request for the role",
         points: "N/A",
         category: "ranks"
     },
