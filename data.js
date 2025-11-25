@@ -332,8 +332,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Acting Director": { // WIP
-        description: "",
-        requirements: "",
+        description: "Temporarily appointed by the DRO or SP to act as the DRO.",
+        requirements: "Handpicked by the DRO or SP.",
         points: "N/A",
         category: "ranks"
     },
