@@ -542,7 +542,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "NFSF Volunteer": {
-        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
+        description: "Security for orientations.",
         requirements: "Be an NFSF member",
         points: "N/A",
         category: "ranks"
