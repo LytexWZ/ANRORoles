@@ -410,8 +410,8 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Naramo Moderator": { // WIP
-        description: "",
-        requirements: "",
+        description: "Moderators of naramo.",
+        requirements: "Be NAMS and request for the role in #special-role-request",
         points: "N/A",
         category: "ranks"
     },
