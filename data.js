@@ -397,7 +397,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Facton Oversight": { // WIP
+    "Faction Oversight": { // WIP
         description: "",
         requirements: "",
         points: "N/A",
