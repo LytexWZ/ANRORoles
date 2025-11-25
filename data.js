@@ -611,10 +611,3 @@ const roleDescriptions = {
         points: "N/A",
         category: "certifications"
     },
-    "Sleep Cert": {
-        description: "Sleep in call... for a long time...",
-        requirements: "Sleep in a call for 24 hours",
-        points: "N/A",
-        category: "certifications"
-    }
-};
