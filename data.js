@@ -49,9 +49,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "RLA Certified": { // WIP
-        description: "",
-        requirements: "",
+    "RLA Certified": {
+        description: "Pass the MR training program.",
+        requirements: "Become an MR and pass RLA",
         points: "N/A",
         category: "departments"
     },
@@ -67,27 +67,27 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "ANRO Ribbon Maker": { // WIP
+    "ANRO Ribbon Maker": {
         description: "LHR members that make ribbons.",
         requirements: "Be LHR, MR+ & request to become a Ribbon Maker.",
         points: "N/A",
         category: "departments"
     },
-    "IU | Head of Investigation Operations": { // WIP
-        description: "",
-        requirements: "",
+    "IU | Head of Investigation Operations": {
+        description: "First in Command of the Investigation Unit",
+        requirements: "Handpicked by HOIO upon retirement",
         points: "N/A",
         category: "departments"
     },
-    "IU | Operations Inspector": { // WIP
-        description: "S",
-        requirements: "",
+    "IU | Operations Inspector": {
+        description: "MR within Investigation Unit.",
+        requirements: "Pass an OI application",
         points: "N/A",
         category: "departments"
     },
-    "IU | Investigator": { // WIP
-        description: "",
-        requirements: "",
+    "IU | Investigator": {
+        description: "Low rank within the Investigation Unit, the people who background check members at orientations. Has direct line to IA.",
+        requirements: "Pass a weekly IU application",
         points: "N/A",
         category: "departments"
     },
