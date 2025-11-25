@@ -479,7 +479,7 @@ const roleDescriptions = {
     },
     "Super duper cool donator people": {
         description: "Special recognition for generous donors",
-        requirements: "Donation of atleast 5$ USD+ to NS charity event. Unobtainable",
+        requirements: "Donation of atleast 5$ USD+ to an NS charity event. Unobtainable",
         points: "N/A",
         category: "ranks"
     },
