@@ -262,7 +262,7 @@ const roleDescriptions = {
         category: "awards"
     },
     "Nice": {
-        description: "Very nice. Given to IWantACopyrighStrike for being the 69th nurse in GSMC.",
+        description: "Very nice. Given to djsogge for getting the 69th reaction to an announcement. Given by former ANROCOM member danielvj1",
         requirements: "Unobtainable",
         points: "N/A",
         category: "awards"
