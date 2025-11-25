@@ -69,25 +69,25 @@ const roleDescriptions = {
     },
     "ANRO Ribbon Maker": { // WIP
         description: "LHR members that make ribbons.",
-        requirements: "Be LHR, MR+ & unknown.",
+        requirements: "Be LHR, MR+ & request to become a Ribbon Maker.",
         points: "N/A",
         category: "departments"
     },
     "IU | Head of Investigation Operations": { // WIP
-        description: "The lead of IU.",
+        description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "IU | Operations Inspector": { // WIP
-        description: "Second highest IU rank.",
+        description: "S",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "IU | Investigator": { // WIP
-        description: "Base IU rank.",
-        requirements: "Pass the IU application in #subdivision-entry",
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
