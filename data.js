@@ -509,7 +509,7 @@ const roleDescriptions = {
     },
     "Noobic Military Police": {
         description: "Military Police which assist with moderating Naramo.",
-        requirements: "Get accepted into NMP",
+        requirements: "NMP Patrol Officer+",
         points: "N/A",
         category: "ranks"
     },
