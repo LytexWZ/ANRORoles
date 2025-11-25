@@ -399,7 +399,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Facton Oversight": {
+    "Faction Oversight": {
         description: "Overseers of ANRO. Given to the Naramo owner(s).",
         requirements: "Unknown",
         points: "N/A",
@@ -479,7 +479,7 @@ const roleDescriptions = {
     },
     "Super duper cool donator people": {
         description: "Special recognition for generous donors",
-        requirements: "Donation to NS charity event. Unobtainable",
+        requirements: "Donation of atleast 5$ USD+ to an NS charity event. Unobtainable",
         points: "N/A",
         category: "ranks"
     },
@@ -538,7 +538,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "NFSF Volunteer": {
-        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
+        description: "Security for orientations.",
         requirements: "Be an NFSF member",
         points: "N/A",
         category: "ranks"
