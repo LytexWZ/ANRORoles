@@ -461,13 +461,13 @@ const roleDescriptions = {
     },
     "Shift Supervisor": {
         description: "Supervises shift operations and crew management",
-        requirements: "20+ Shifts + Supervisor Application + 175+ Points + passed probationary phase",
+        requirements: "Pass the probationary phase.",
         points: "175",
         category: "ranks"
     },
     "Junior Shift Supervisor": {
         description: "Probationary SU",
-        requirements: "Pass the MR exam",
+        requirements: "Pass the MR exam + 20+ Shifts + 175+ Points",
         points: "N/A",
         category: "ranks"
     },
