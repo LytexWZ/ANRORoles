@@ -1,6 +1,12 @@
 //Data
 const roleDescriptions = {
     // Departments
+    "ANROSOC": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
     "Administration Director": {
         description: "Oversees all administrative operations and strategic planning for ANRO",
         requirements: "Handpicked by Site President",
@@ -43,6 +49,12 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
+    "RLA Certified": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
     "Logistics & Human Resources": {
         description: "Paper pushers of ANRO.",
         requirements: "Reach MR + Apply to Logistics & Human Resources",
@@ -52,6 +64,30 @@ const roleDescriptions = {
     "Employee Engagement": {
         description: "Employees that host gamenights to liven up ANRO's spirit",
         requirements: "Reach MR + Apply to Employee Engagement",
+        points: "N/A",
+        category: "departments"
+    },
+    "ANRO Ribbon Maker": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IU | Head of Investigation Operations": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IU | Operations Inspector": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IU | Investigator": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
@@ -97,13 +133,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Director of Research": {
+    "Director of Research & Development": {
         description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
         requirements: "Appointed by TQUAL Assistant Director",
         points: "N/A",
         category: "departments"
     },
-    "Deputy Director of Research": {
+    "Dep. Director of Research & Development": {
         description: "Senior executive who supports and reports to the Director of Research, acting as the second in command of the Research Department",
         requirements: "Appointed by Director of Research",
         points: "N/A",
@@ -165,6 +201,12 @@ const roleDescriptions = {
     },
 
     // Awards
+    "Quantum Sack": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "awards"
+    },
     "Galaxy Sack": {
         description: "Prestigious award for exceptional service to ANRO",
         requirements: "Outstanding contribution + ANROCOM/HR nomination",
@@ -265,6 +307,12 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
+    "THE BEST OM AWARD": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "ranks"
+    },
     "HR - HIGH RANK": {
         description: "High Rank members of ANRO. Command Staff+",
         requirements: "Handpicked by ANROCOM, promoted from MR.",
@@ -278,7 +326,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Professional Standards": {
-        description: "Very professional members of HR.",
+        description: "Individuals selected by the Site President that ANROCOM misconduct should be reported to",
         requirements: "Handpicked",
         points: "N/A",
         category: "ranks"
@@ -286,6 +334,12 @@ const roleDescriptions = {
     "Director of Reactor Operations": {
         description: "Member of ANROCOM, oversees all operations and departments within ANRO",
         requirements: "Handpicked by ANROCOM",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Acting Director": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
@@ -331,6 +385,12 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
+    "ANROCOM Clerk": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: ""
+    },
     "John ANRO": {
         description: "Role for previous HR John ANRO, known for his dedication and love for ANRO.",
         requirements: "Unobtainable.",
@@ -343,9 +403,21 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
+    "Facton Oversight": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "ranks"
+    },
     "Federal Government": {
-        description: "Role given to Naramo developers and moderators",
-        requirements: "Be a member of NAMS (Naramo Administration and Moderation Services) or 8NEC and request the role",
+        description: "Role given to Naramo Devs and select Game Staff",
+        requirements: "Be a member of 8NEC and request the role",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Naramo Moderator": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
@@ -409,6 +481,12 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
+    "super duper cool orange role": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "ranks"
+    },
     "Super duper cool donator people": {
         description: "Special recognition for generous donors",
         requirements: "Donation to NS charity event. Unobtainable",
@@ -418,6 +496,12 @@ const roleDescriptions = {
     "Retired MR": {
         description: "Honorary title for retired middle rank personnel",
         requirements: "Former MR status + retirement status",
+        points: "N/A",
+        category: "ranks"
+    },
+    "BEST LR AWARD": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
@@ -542,85 +626,5 @@ const roleDescriptions = {
         requirements: "Sleep in a call for 24 hours",
         points: "N/A",
         category: "certifications"
-    }
-};
-
-// Point earning activities
-const pointActivities = {
-    certifications: {
-        min: 4,
-        max: 8,
-        description: "Earning a certification"
-    },
-    officialShifts: {
-        points: 5,
-        description: "Official shifts"
-    },
-    gameNights: {
-        points: 2,
-        description: "Game nights participation"
-    },
-    tier3Shifts: {
-        points: 1,
-        description: "Tier 3 shifts"
-    },
-    extraPoints: {
-        min: 2,
-        max: 4,
-        description: "Extra point activities"
-    }
-};
-
-// Rank progression requirements
-const rankRequirements = {
-    "New Applicant": {
-        nextRank: "Junior Reactor Operator",
-        requirements: {
-            description: "Pass orientation exam",
-            points: 0,
-            shifts: 0,
-            certifications: [],
-            special: "Complete orientation exam"
-        }
-    },
-    "Junior Reactor Operator": {
-        nextRank: "Reactor Operator",
-        requirements: {
-            description: "Newly appointed personnel",
-            points: 25,
-            shifts: 2,
-            certifications: ["Turbine Certified", "Solo Certified"],
-            special: "N/A"
-        }
-    },
-    "Reactor Operator": {
-        nextRank: "Nuclear Engineer",
-        requirements: {
-            description: "ANRO personnel that possess basic familiarity with Naramo systems",
-            points: 75,
-            shifts: 10,
-            certifications: ["Emergency Certified", "Grid Certified"],
-            special: "N/A"
-        }
-    },
-    "Nuclear Engineer": {
-        nextRank: "Senior Reactor Operator",
-        requirements: {
-            description: "Specialists in reactor operations with advanced knowledge",
-            points: 125,
-            shifts: 15,
-            certifications: ["Supervisor Certified"],
-            special: "Pass an application for SRO"
-        }
-    },
-    "Senior Reactor Operator": {
-        nextRank: "Shift Supervisor",
-        requirements: {
-            description: "Competent personnel with leadership capabilities. Entry level MR.",
-            points: 175,
-            shifts: 20,
-            certifications: [],
-            special: "Pass Shift Supervisor application."
-        }
     }
 };
