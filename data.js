@@ -516,7 +516,7 @@ const roleDescriptions = {
     "Senior Reactor Operator": {
         description: "Senior LR position. Requires all main certifications.",
         requirements: "15+ shifts + Supervisor Certification",
-        points: "N/A",
+        points: "125",
         category: "ranks"
     },
     "Nuclear Engineer": {
