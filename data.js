@@ -316,7 +316,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Operations Assistant": {
-        description: "Bots of ANRO's Discord.",
+        description: "Bots of ANRO's Discord server.",
         requirements: "Be a Discord bot.",
         points: "N/A",
         category: "ranks"
