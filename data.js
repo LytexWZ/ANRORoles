@@ -302,13 +302,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-// Commented out; OM isn't OM anymore. Will be changed later    
-//    "THE BEST OM AWARD": { // WIP
-//        description: "",
-//        requirements: "",
-//        points: "N/A",
-//        category: "ranks"
-//    },
+    // Commented out; OM isn't OM anymore. Will be changed later - uncommented out now    
+    "THE BEST OM AWARD": { // WIP
+        description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
+        requirements: "Given to whoever is voted best CS.",
+        points: "N/A",
+        category: "ranks"
+    },
     "HR - HIGH RANK": {
         description: "High Rank members of ANRO. Command Staff+",
         requirements: "Handpicked by ANROCOM, promoted from MR.",
