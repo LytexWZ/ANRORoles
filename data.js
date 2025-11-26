@@ -302,13 +302,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-// Commented out; OM isn't OM anymore. Will be changed later    
-//    "THE BEST OM AWARD": { // WIP
-//        description: "",
-//        requirements: "",
-//        points: "N/A",
-//        category: "ranks"
-//    },
+
+    "THE BEST OM AWARD": {
+        description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
+        requirements: "Given to whoever is voted best CS.",
+        points: "N/A",
+        category: "ranks"
+    },
     "HR - HIGH RANK": {
         description: "High Rank members of ANRO. Command Staff+",
         requirements: "Handpicked by ANROCOM, promoted from MR.",
@@ -316,7 +316,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Operations Assistant": {
-        description: "Bots of ANRO's Discord.",
+        description: "Bots of ANRO's Discord server.",
         requirements: "Be a Discord bot.",
         points: "N/A",
         category: "ranks"
@@ -473,7 +473,7 @@ const roleDescriptions = {
     },
     "Faction Diplomat": {
         description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
-        requirements: "Be an HR in any other Naramo faction, NFSF, NDC, 308th, and NES",
+        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES",
         points: "N/A",
         category: "ranks"
     },
@@ -516,7 +516,7 @@ const roleDescriptions = {
     "Senior Reactor Operator": {
         description: "Senior LR position. Requires all main certifications.",
         requirements: "15+ shifts + Supervisor Certification",
-        points: "N/A",
+        points: "125",
         category: "ranks"
     },
     "Nuclear Engineer": {
@@ -607,7 +607,8 @@ const roleDescriptions = {
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
-        requirements: "Perform 3 solo T3s",
+        requirements: "Attend a solo cert or open a T3 ticket in #hr-hub and send a video of you doing a solo.",
         points: "N/A",
         category: "certifications"
     },
+}
