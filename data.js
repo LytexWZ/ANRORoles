@@ -1,7 +1,7 @@
 //Data
 const roleDescriptions = {
     // Departments
-    "ANROSOC": { // hello commit test
+    "ANROSOC": {
         description: "The topfraggers of ANRO.",
         requirements: "Get noticed doing very well by a higher up during a DT/CT.",
         points: "N/A",
