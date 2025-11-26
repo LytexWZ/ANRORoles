@@ -611,3 +611,4 @@ const roleDescriptions = {
         points: "N/A",
         category: "certifications"
     },
+}
