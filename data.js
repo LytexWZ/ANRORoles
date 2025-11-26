@@ -473,7 +473,7 @@ const roleDescriptions = {
     },
     "Faction Diplomat": {
         description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
-        requirements: "Be an HR in any other Naramo faction, NFSF, NDC, 308th, and NES",
+        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES",
         points: "N/A",
         category: "ranks"
     },
