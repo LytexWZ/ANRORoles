@@ -303,7 +303,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     // Commented out; OM isn't OM anymore. Will be changed later - uncommented out now    
-    "THE BEST OM AWARD": { // WIP
+    "THE BEST OM AWARD": {
         description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
         requirements: "Given to whoever is voted best CS.",
         points: "N/A",
