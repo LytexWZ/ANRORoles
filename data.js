@@ -607,7 +607,7 @@ const roleDescriptions = {
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
-        requirements: "Perform 3 solo T3s",
+        requirements: "Attend a solo cert or open a T3 ticket in #hr-hub and send a video of you doing a solo.",
         points: "N/A",
         category: "certifications"
     },
