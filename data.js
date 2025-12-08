@@ -146,6 +146,12 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
+    "ANROSTG": {
+        description: "Sub-department of ANRODF, specializing in first person shooters.",
+        requirements: "Pass an ANROSTG tryout.",
+        points: "N/A",
+        category: "departments"
+    },
     // R&D
     "Director of Research & Development": {
         description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
