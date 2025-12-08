@@ -96,13 +96,24 @@ const roleDescriptions = {
         category: "departments"
     },
     // EE
-    "Employee Engagement": {
-        description: "Employees that host gamenights to liven up ANRO's spirit",
-        requirements: "Reach MR + Apply to Employee Engagement",
+    "Employee Engagement": { //needs info
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
-
+    "Senior EE": { //needs info
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "EE": { //needs info
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
     // IU
     "IU | Head of Investigation Operations": {
         description: "First in Command of the Investigation Unit",
@@ -127,7 +138,7 @@ const roleDescriptions = {
         description: "Service ribbon for ANRO Defense Force members",
         requirements: "Active ANRODF service",
         points: "N/A",
-        category: "awards"
+        category: "departments"
     },
      "ANROSOC": {
         description: "Sub-department of ANRODF, specializing in third person shooters.",
