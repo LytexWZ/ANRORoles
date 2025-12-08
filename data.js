@@ -51,13 +51,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-     "Senior LHR": {
+     "Senior LHR": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-     "LHR": {
+     "LHR": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
@@ -65,31 +65,31 @@ const roleDescriptions = {
     },
 
     // IA
-    "Internal Affairs": {
+    "Internal Affairs": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IA | Lead Moderator": {
+    "IA | Lead Moderator": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IA | Senior Moderator": {
+    "IA | Senior Moderator": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IA | Moderator": {
+    "IA | Moderator": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IA | Probationary Moderator": {
+    "IA | Probationary Moderator": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
@@ -236,6 +236,12 @@ const roleDescriptions = {
         category: "departments"
     },
     // Awards
+    "BEST LR AWARD": {
+        description: "Given to the person who is voted Best LR.",
+        requirements: "Be voted Best LR on one of man_ofcan's polls.",
+        points: "N/A",
+        category: "awards"
+    },
     "Most Memorable Retired HR": {
         description: "Honorary title for distinguished retired HR personnel",
         requirements: "Be voted Most Memorable Retired HR",
@@ -502,7 +508,26 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
+    "Faction Diplomat": {
+        description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
+        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES, or be an MR with permission to recieve this role.",
+        points: "N/A",
+        category: "ranks"
+    },
 
+    "Noobic Military Police": {
+        description: "Military Police which assist with moderating Naramo.",
+        requirements: "NMP Patrol Officer+ and request for the role",
+        points: "N/A",
+        category: "ranks"
+    },
+    "NFSF Volunteer": {
+        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
+        requirements: "Be an NFSF member",
+        points: "N/A",
+        category: "ranks"
+    },
+    // Retirement home!
     "Retired ANROCOM": {
         description: "Honorary title for retired ANROCOM members",
         requirements: "Former ANROCOM status + honorable service",
@@ -515,47 +540,16 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "BEST MR AWARD": {
-        description: "Recognition for outstanding middle rank performance",
-        requirements: "Given to whoever is voted best MR.",
-        points: "N/A",
-        category: "ranks"
-    },
-
-    "Faction Diplomat": {
-        description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
-        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES, or be an MR with permission to recieve this role.",
-        points: "N/A",
-        category: "ranks"
-    },
     "Retired MR": {
         description: "Honorary title for retired middle rank personnel",
         requirements: "Former MR status + retirement status",
         points: "N/A",
         category: "ranks"
     },
-    "BEST LR AWARD": {
-        description: "Given to the person who is voted Best LR.",
-        requirements: "Be voted Best LR on one of man_ofcan's polls.",
-        points: "N/A",
-        category: "ranks"
-    },
+    // TRULY misc shit
     "Server Booster": {
         description: "Discord server booster. Special name color and role.",
         requirements: "Active Discord server boost",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Noobic Military Police": {
-        description: "Military Police which assist with moderating Naramo.",
-        requirements: "NMP Patrol Officer+ and request for the role",
-        points: "N/A",
-        category: "ranks"
-    },
-
-    "NFSF Volunteer": {
-        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
-        requirements: "Be an NFSF member",
         points: "N/A",
         category: "ranks"
     },
