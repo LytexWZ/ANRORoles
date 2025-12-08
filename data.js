@@ -1,9 +1,137 @@
 //Data
 const roleDescriptions = {
     // Departments
-    "ANROSOC": { // WIP
+    // TQUAL
+    "Training and Qualification": {
+        description: "ANRO personnel tasked with hosting orientations for new ANRO members and certifications for ANRO staff",
+        requirements: "Reach MR + Apply to TQUAL",
+        points: "N/A",
+        category: "departments"
+    },
+    "TQUAL Admin": {
+        description: "TQUAL member who assists the Section Cheif by leading a TQUAL division",
+        requirements: "Appointed by the Section Cheif for TQUAL. (Not up to date!)",
+        points: "N/A",
+        category: "departments"
+    },
+    "TQUAL Officer": {
+        description: "TQUAL member handling duties inside of a TQUAL division.",
+        requirements: "Appointed by AD or TQUAL Admin. (Not up to date!)",
+        points: "N/A",
+        category: "departments"
+    },
+    "Senior Instructor": {
+        description: "High ranking instructor within TQUAL who may host trainings and supervise Probationary Instructors",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "Instructor": {
+        description: "Regular instructor within TQUAL who hosts trainings.",
+        requirements: "Finish the probationary phase of being an instructor",
+        points: "N/A",
+        category: "departments"
+    },
+    "Prob. Instructor": {
+        description: "Recently joined instructor needing to complete their probationary phase.",
+        requirements: "Reach MR + Apply to TQUAL",
+        points: "N/A",
+        category: "departments"
+    },
+    // LHR
+    "Logistics & Human Resources": {
+        description: "Paper pushers of ANRO.",
+        requirements: "Reach MR + Apply to Logistics & Human Resources",
+        points: "N/A",
+        category: "departments"
+    },
+    "ANRO Ribbon Maker": { // might be LHR?
+        description: "LHR members that make ribbons.",
+        requirements: "Be LHR, MR+ & request to become a Ribbon Maker.",
+        points: "N/A",
+        category: "departments"
+    },
+     "Senior LHR": {
         description: "",
         requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+     "LHR": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+
+    // IA
+    "Internal Affairs": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IA | Lead Moderator": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IA | Senior Moderator": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IA | Moderator": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    "IA | Probationary Moderator": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+    // EE
+    "Employee Engagement": {
+        description: "Employees that host gamenights to liven up ANRO's spirit",
+        requirements: "Reach MR + Apply to Employee Engagement",
+        points: "N/A",
+        category: "departments"
+    },
+
+    // IU
+    "IU | Head of Investigation Operations": {
+        description: "First in Command of the Investigation Unit",
+        requirements: "Handpicked by HOIO upon retirement",
+        points: "N/A",
+        category: "departments"
+    },
+    "IU | Operations Inspector": {
+        description: "MR within Investigation Unit.",
+        requirements: "Pass an OI application",
+        points: "N/A",
+        category: "departments"
+    },
+    "IU | Investigator": {
+        description: "Low rank within the Investigation Unit, the people who background check members at orientations. Has direct line to IA.",
+        requirements: "Pass a weekly IU application",
+        points: "N/A",
+        category: "departments"
+    },
+    // ANRODF
+    "ANRODF Service Ribbon": {
+        description: "Service ribbon for ANRO Defense Force members",
+        requirements: "Active ANRODF service",
+        points: "N/A",
+        category: "awards"
+    },
+     "ANROSOC": {
+        description: "Sub-department of ANRODF, specializing in third person shooters.",
+        requirements: "Pass an ANROSOC tryout.",
         points: "N/A",
         category: "departments"
     },
@@ -13,84 +141,38 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Training and Qualification": {
-        description: "ANRO personnel tasked with hosting orientations for new ANRO members and certifications for ANRO staff",
-        requirements: "Reach MR + Apply to TQUAL",
+    // R&D
+    "Director of Research & Development": {
+        description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
+        requirements: "Appointed by TQUAL Assistant Director",
         points: "N/A",
         category: "departments"
     },
-    "TQUAL Admin": {
-        description: "Assists the TQUAL SC by leading a TQUAL division",
-        requirements: "Appointed by the Assistant Director for Training and Qualification",
+    "Dep. Director of Research & Development": {
+        description: "Senior executive who supports and reports to the Director of Research, acting as the second in command of the Research Department",
+        requirements: "Appointed by Director of Research",
         points: "N/A",
         category: "departments"
     },
-    "TQUAL Officer": {
-        description: "Handles duties inside a TQUAL division, often involving paper work",
-        requirements: "Appointed by AD or TQUAL Admin",
+    "ANRO R&D - Chief Researcher": {
+        description: "High rank inside the Research Department, tasked with hosting research sessions for R&D to research during.",
+        requirements: "Be MR and request promotion. (Hosting position)",
         points: "N/A",
         category: "departments"
     },
-    "Senior Instructor": {
-        description: "High rank instructor that hosts trainings and supervises probatory instructors",
-        requirements: "",
+    "ANRO R&D - Senior Researcher": {
+        description: "Middle rank inside the Research Department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
+        requirements: "Be active and contribute within the department",
         points: "N/A",
         category: "departments"
     },
-    "Instructor": {
-        description: "ANRO personnel that host trainings",
-        requirements: "Finish the probationary phase of being an instructor",
+    "ANRO R&D - Researcher": {
+        description: "Low rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
+        requirements: "Apply to join ANRO R&D in #subdivision-entry",
         points: "N/A",
         category: "departments"
     },
-    "Prob. Instructor": {
-        description: "Recently joined instructors",
-        requirements: "Reach MR + Apply to TQUAL (Pass probationary phase)",
-        points: "N/A",
-        category: "departments"
-    },
-    "RLA Certified": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "departments"
-    },
-    "Logistics & Human Resources": {
-        description: "Paper pushers of ANRO.",
-        requirements: "Reach MR + Apply to Logistics & Human Resources",
-        points: "N/A",
-        category: "departments"
-    },
-    "Employee Engagement": {
-        description: "Employees that host gamenights to liven up ANRO's spirit",
-        requirements: "Reach MR + Apply to Employee Engagement",
-        points: "N/A",
-        category: "departments"
-    },
-    "ANRO Ribbon Maker": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "departments"
-    },
-    "IU | Head of Investigation Operations": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "departments"
-    },
-    "IU | Operations Inspector": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "departments"
-    },
-    "IU | Investigator": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "departments"
-    },
+    // Subdepartments
     "ANRO Propaganda Official": {
         description: "Creators of propaganda materials in the form of artwork, videos, or anything of the sort.",
         requirements: "Apply to join Propaganda in #subdivision-entry",
@@ -133,36 +215,8 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Director of Research & Development": {
-        description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
-        requirements: "Appointed by TQUAL Assistant Director",
-        points: "N/A",
-        category: "departments"
-    },
-    "Dep. Director of Research & Development": {
-        description: "Senior executive who supports and reports to the Director of Research, acting as the second in command of the Research Department",
-        requirements: "Appointed by Director of Research",
-        points: "N/A",
-        category: "departments"
-    },
-    "ANRO R&D - Chief Researcher": {
-        description: "High rank inside the Research Department, tasked with hosting research sessions for R&D to research during.",
-        requirements: "Be MR and request promotion. (Hosting position)",
-        points: "N/A",
-        category: "departments"
-    },
-    "ANRO R&D - Senior Researcher": {
-        description: "Middle rank inside the Research Department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
-        requirements: "Be active and contribute within the department",
-        points: "N/A",
-        category: "departments"
-    },
-    "ANRO R&D - Researcher": {
-        description: "Low rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
-        requirements: "Apply to join ANRO R&D in #subdivision-entry",
-        points: "N/A",
-        category: "departments"
-    },
+
+    // Misc departments
     "Plant Maintenance (Bot Developer)": {
         description: "Developer for the John Clanker bot",
         requirements: "Unknown",
@@ -181,26 +235,32 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Team SCRAMed": {
-        description: "ANRO Games team",
-        requirements: "Request to join the ANRO Games",
-        points: "N/A",
-        category: "departments"
-    },
-    "Team Synced": {
-        description: "ANRO Games team",
-        requirements: "Request to join the ANRO Games",
-        points: "N/A",
-        category: "departments"
-    },
-
     // Awards
-    "Quantum Sack": { // WIP
-        description: "",
-        requirements: "",
+    "Most Memorable Retired HR": {
+        description: "Honorary title for distinguished retired HR personnel",
+        requirements: "Be voted Most Memorable Retired HR",
         points: "N/A",
         category: "awards"
     },
+    "THE BEST OM AWARD": {
+        description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
+        requirements: "Given to whoever is voted best CS.",
+        points: "N/A",
+        category: "awards"
+    },
+    "SUPER DUPER BEST HICOM AWARD": { // possibly can be updated
+        description: "Special recognition for outstanding high command service.",
+        requirements: "Handpicked",
+        points: "N/A",
+        category: "awards"
+    },
+// Commented out; Hasn't been given out before AFAIK. Will be changed | NEEDS FIX     
+//    "Quantum Sack": { // WIP
+//        description: "",
+//        requirements: "",
+//        points: "N/A",
+//        category: "awards"
+//    },
     "Galaxy Sack": {
         description: "Prestigious award for exceptional service to ANRO",
         requirements: "Outstanding contribution + ANROCOM/HR nomination",
@@ -243,21 +303,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
-    "ANRODF Service Ribbon": {
-        description: "Service ribbon for ANRO Defense Force members",
-        requirements: "Active ANRODF service",
-        points: "N/A",
-        category: "awards"
-    },
     "V2 Naramo Raider": {
         description: "Be on the WN team during the V2 Beta test with developers.",
         requirements: "No longer obtainable",
-        points: "N/A",
-        category: "awards"
-    },
-    "Nice": {
-        description: "Very nice.",
-        requirements: "Be kind",
         points: "N/A",
         category: "awards"
     },
@@ -281,68 +329,44 @@ const roleDescriptions = {
         points: "N/A",
         category: "special"
     },
-
     // Ranks
-    "Chief Nuclear Officer": {
-        description: "Highest executive position in ANRO. Leader and owner of ANRO.",
-        requirements: "Be doop931",
-        points: "N/A",
-        category: "ranks"
-    },
-    "SUPER DUPER BEST HICOM AWARD": {
-        description: "Special recognition for outstanding high command service.",
-        requirements: "Handpicked",
-        points: "N/A",
-        category: "ranks"
-    },
-    "THE BEST OM AWARD": {
-        description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
-        requirements: "Given to whoever is voted best CS.",
-        points: "N/A",
-        category: "ranks"
-    },
+    // HR
     "HR - HIGH RANK": {
         description: "High Rank members of ANRO. Command Staff+",
         requirements: "Handpicked by ANROCOM, promoted from MR.",
         points: "N/A",
         category: "ranks"
     },
-    "Operations Assistant": {
-        description: "Bots of ANRO's Discord server.",
-        requirements: "Be a Discord bot.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Professional Standards": {
-        description: "Individuals selected by the Site President that ANROCOM misconduct should be reported to",
-        requirements: "Handpicked",
+    "Chief Nuclear Officer": {
+        description: "Highest executive position in ANRO. Leader and owner of ANRO.",
+        requirements: "Be doop931",
         points: "N/A",
         category: "ranks"
     },
     "Director of Operations": {
-        description: "Member of ANROCOM, oversees all operations and departments within ANRO",
+        description: "Second in command of ANRO. Member of ANROCOM, oversees all operations and departments within ANRO",
         requirements: "Handpicked by ANROCOM",
         points: "N/A",
         category: "ranks"
     },
-    "Deputy Director of Operations": { // WIP
+    "Deputy Director of Operations": {
+        description: "Third in command of ANRO, overseeing all operations. Member of ANROCOM.",
+        requirements: "Handpicked by ANROCOM",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Section Chief of MR Management": {
+        description: "Head of the department managing MR's.",
+        requirements: "Handpicked by ANROCOM",
+        points: "N/A",
+        category: "ranks"
+    },
+/*    "Section Chief of Administrative Affairs": { // WIP
         description: "",
         requirements: "",
         points: "N/A",
         category: "ranks"
-    },
-    "Section Chief of MR Management": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Section Chief of Administrative Affairs": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
+    }, */
     "Section Chief of Internal Affairs": {
         description: "Member of ANROCOM, oversees the department of Internal Affairs.",
         requirements: "Handpicked by ANROCOM. Be active within IA.",
@@ -379,66 +403,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "ANROCOM Clerk": { // WIP
-        description: "",
-        requirements: "",
+    "ANROCOM Clerk": {
+        description: "ANRO Command Staff who assists with all departments. Not offically a member of ANROCOM.",
+        requirements: "Appointed by ANROCOM",
         points: "N/A",
         category: ""
     },
-    "John ANRO": {
-        description: "Role for previous HR John ANRO, known for his dedication and love for ANRO.",
-        requirements: "Unobtainable.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Moderation Oversight": {
-        description: "Oversight of the Moderation team.",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Facton Oversight": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Federal Government": {
-        description: "Role given to Naramo Devs and select Game Staff",
-        requirements: "Be a member of 8NEC and request the role",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Naramo Moderator": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Most Memorable Retired HR": {
-        description: "Honorary title for distinguished retired HR personnel",
-        requirements: "Be voted Most Memorable Retired HR",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Retired ANROCOM": {
-        description: "Honorary title for retired ANROCOM members",
-        requirements: "Former ANROCOM status + honorable service",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Retired HR": {
-        description: "Honorary title for retired HR personnel",
-        requirements: "Former HR status + currently retired",
-        points: "N/A",
-        category: "ranks"
-    },
-    "BEST MR AWARD": {
-        description: "Recognition for outstanding middle rank performance",
-        requirements: "Given to whoever is voted best MR.",
-        points: "N/A",
-        category: "ranks"
-    },
+    // MR
     "MR - MIDDLE RANK": {
         description: "Middle management rank with operational responsibilities",
         requirements: "Pass an SU application after reaching SRO.",
@@ -465,55 +436,14 @@ const roleDescriptions = {
     },
     "Junior Shift Supervisor": {
         description: "Probationary SU",
-        requirements: "Pass the MR exam",
+        requirements: "Pass an MR application + 20+ Shifts + 175+ Points",
         points: "N/A",
         category: "ranks"
     },
-    "Faction Diplomat": {
-        description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
-        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "super duper cool orange role": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Super duper cool donator people": {
-        description: "Special recognition for generous donors",
-        requirements: "Donation to NS charity event. Unobtainable",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Retired MR": {
-        description: "Honorary title for retired middle rank personnel",
-        requirements: "Former MR status + retirement status",
-        points: "N/A",
-        category: "ranks"
-    },
-    "BEST LR AWARD": { // WIP
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Server Booster": {
-        description: "Discord server booster. Special name color and role.",
-        requirements: "Active Discord server boost",
-        points: "N/A",
-        category: "ranks"
-    },
+    // LR
     "LR - LOW RANK": {
         description: "Entry-level operational rank. Contains most of ANRO",
         requirements: "Pass an orientation into ANRO becoming a JRO.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "Noobic Military Police": {
-        description: "Military Police which assist with moderating Naramo.",
-        requirements: "Get accepted into NMP",
         points: "N/A",
         category: "ranks"
     },
@@ -541,25 +471,94 @@ const roleDescriptions = {
         points: "0",
         category: "ranks"
     },
-    "NFSF Volunteer": {
-        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
-        requirements: "Be an NFSF member",
-        points: "N/A",
-        category: "ranks"
-    },
     "New Applicant": {
         description: "New member awaiting orientation and training",
         requirements: "Join the ANRO Discord server",
         points: "N/A",
         category: "ranks"
     },
-    "Mods": {
-        description: "Moderation team (IA department), deals with all reports of misconduct within ANRO",
-        requirements: "Application & passing probationary phase",
+    // Misc Ranks
+    "Operations Assistant": {
+        description: "Bots of ANRO's Discord server.",
+        requirements: "Be a Discord bot.",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Faction Oversight": {
+        description: "Overseers of ANRO. Given to the Naramo owner(s).",
+        requirements: "Unknown",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Federal Government": {
+        description: "Role given to high ranking developers and officals who manage Naramo.",
+        requirements: "Recieve authorization from Blaley or PupNetx and request for the role in #special-role-request",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Naramo Moderator": {
+        description: "NAMS members. Moderation team of Naramo.",
+        requirements: "Join NAMS and request for the role in #special-role-request",
         points: "N/A",
         category: "ranks"
     },
 
+    "Retired ANROCOM": {
+        description: "Honorary title for retired ANROCOM members",
+        requirements: "Former ANROCOM status + honorable service",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Retired HR": {
+        description: "Honorary title for retired HR personnel",
+        requirements: "Former HR status + currently retired",
+        points: "N/A",
+        category: "ranks"
+    },
+    "BEST MR AWARD": {
+        description: "Recognition for outstanding middle rank performance",
+        requirements: "Given to whoever is voted best MR.",
+        points: "N/A",
+        category: "ranks"
+    },
+
+    "Faction Diplomat": {
+        description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
+        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES, or be an MR with permission to recieve this role.",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Retired MR": {
+        description: "Honorary title for retired middle rank personnel",
+        requirements: "Former MR status + retirement status",
+        points: "N/A",
+        category: "ranks"
+    },
+    "BEST LR AWARD": {
+        description: "Given to the person who is voted Best LR.",
+        requirements: "Be voted Best LR on one of man_ofcan's polls.",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Server Booster": {
+        description: "Discord server booster. Special name color and role.",
+        requirements: "Active Discord server boost",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Noobic Military Police": {
+        description: "Military Police which assist with moderating Naramo.",
+        requirements: "NMP Patrol Officer+ and request for the role",
+        points: "N/A",
+        category: "ranks"
+    },
+
+    "NFSF Volunteer": {
+        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
+        requirements: "Be an NFSF member",
+        points: "N/A",
+        category: "ranks"
+    },
     // Certifications
     "Formation Certification": {
         description: "Be able to do wedges and faces",
@@ -570,6 +569,12 @@ const roleDescriptions = {
     "Spooky Certified": {
         description: "Specialized certification for spooky operations. Operates the SpOoOoOoky grid during Halloween!",
         requirements: "Complete the SpOoOoOoky exam!",
+        points: "N/A",
+        category: "certifications"
+    },
+    "Jolly Certified": {
+        description: "Truly a Jolly operator! Joke certification",
+        requirements: "Attend a Jolly certification session",
         points: "N/A",
         category: "certifications"
     },
@@ -615,10 +620,12 @@ const roleDescriptions = {
         points: "N/A",
         category: "certifications"
     },
-    "Sleep Cert": {
-        description: "Sleep in call... for a long time...",
-        requirements: "Sleep in a call for 24 hours",
-        points: "N/A",
-        category: "certifications"
-    }
 };
+/* Blank format for departments
+     "": {
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
+*/
