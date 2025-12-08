@@ -1,9 +1,9 @@
 //Data
 const roleDescriptions = {
     // Departments
-    "ANROSOC": {
-        description: "The topfraggers of ANRO.",
-        requirements: "Get noticed doing very well by a higher up during a DT/CT.",
+    "ANROSOC": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
@@ -20,38 +20,38 @@ const roleDescriptions = {
         category: "departments"
     },
     "TQUAL Admin": {
-        description: "Command Staff/HR appointed for the purpose of managing TQUAL",
+        description: "Assists the TQUAL SC by leading a TQUAL division",
         requirements: "Appointed by the Assistant Director for Training and Qualification",
         points: "N/A",
         category: "departments"
     },
     "TQUAL Officer": {
-        description: "Lower ranking Training & Qualification team member",
+        description: "Handles duties inside a TQUAL division, often involving paper work",
         requirements: "Appointed by AD or TQUAL Admin",
         points: "N/A",
         category: "departments"
     },
     "Senior Instructor": {
-        description: "High rank instructor that hosts orientations for new ANRO members",
+        description: "High rank instructor that hosts trainings and supervises probatory instructors",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "Instructor": {
-        description: "ANRO personnel that host certifications and orientations for new ANRO members",
+        description: "ANRO personnel that host trainings",
         requirements: "Finish the probationary phase of being an instructor",
         points: "N/A",
         category: "departments"
     },
     "Prob. Instructor": {
-        description: "Recently joined instructor, tasked with certifications and orientations for new ANRO members",
-        requirements: "Reach MR + Apply to TQUAL",
+        description: "Recently joined instructors",
+        requirements: "Reach MR + Apply to TQUAL (Pass probationary phase)",
         points: "N/A",
         category: "departments"
     },
-    "RLA Certified": {
-        description: "Pass the MR training program.",
-        requirements: "Become an MR and pass RLA",
+    "RLA Certified": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
@@ -67,27 +67,27 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "ANRO Ribbon Maker": {
-        description: "LHR members that make ribbons.",
-        requirements: "Be LHR, MR+ & request to become a Ribbon Maker.",
+    "ANRO Ribbon Maker": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IU | Head of Investigation Operations": {
-        description: "First in Command of the Investigation Unit",
-        requirements: "Handpicked by HOIO upon retirement",
+    "IU | Head of Investigation Operations": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IU | Operations Inspector": {
-        description: "MR within Investigation Unit.",
-        requirements: "Pass an OI application",
+    "IU | Operations Inspector": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IU | Investigator": {
-        description: "Low rank within the Investigation Unit, the people who background check members at orientations. Has direct line to IA.",
-        requirements: "Pass a weekly IU application",
+    "IU | Investigator": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "departments"
     },
@@ -195,13 +195,12 @@ const roleDescriptions = {
     },
 
     // Awards
-// Commented out; Hasn't been given out before AFAIK. Will be changed     
-//    "Quantum Sack": { // WIP
-//        description: "",
-//        requirements: "",
-//        points: "N/A",
-//        category: "awards"
-//    },
+    "Quantum Sack": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "awards"
+    },
     "Galaxy Sack": {
         description: "Prestigious award for exceptional service to ANRO",
         requirements: "Outstanding contribution + ANROCOM/HR nomination",
@@ -250,12 +249,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
-    "Pending ANRODF": {
-        description: "ANRO members verified to have a DX-21. Allowed to attend ANRODF tryouts.",
-        requirements: "Send DX-21 ownership proof and get accepted in #ANRODF-signup",
-        points: "N/A",
-        category: "awards"
-    },
     "V2 Naramo Raider": {
         description: "Be on the WN team during the V2 Beta test with developers.",
         requirements: "No longer obtainable",
@@ -263,8 +256,8 @@ const roleDescriptions = {
         category: "awards"
     },
     "Nice": {
-        description: "Very nice. Given to djsogge for getting the 69th reaction to an announcement. Given by former ANROCOM member danielvj1",
-        requirements: "Unobtainable",
+        description: "Very nice.",
+        requirements: "Be kind",
         points: "N/A",
         category: "awards"
     },
@@ -290,7 +283,7 @@ const roleDescriptions = {
     },
 
     // Ranks
-    "Site President": {
+    "Chief Nuclear Officer": {
         description: "Highest executive position in ANRO. Leader and owner of ANRO.",
         requirements: "Be doop931",
         points: "N/A",
@@ -302,10 +295,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-
-    "THE BEST OM AWARD": {
-        description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
-        requirements: "Given to whoever is voted best CS.",
+    "THE BEST OM AWARD": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
@@ -316,7 +308,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "Operations Assistant": {
-        description: "Bots of ANRO's Discord server.",
+        description: "Bots of ANRO's Discord.",
         requirements: "Be a Discord bot.",
         points: "N/A",
         category: "ranks"
@@ -327,49 +319,55 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Director of Reactor Operations": {
+    "Director of Operations": {
         description: "Member of ANROCOM, oversees all operations and departments within ANRO",
         requirements: "Handpicked by ANROCOM",
         points: "N/A",
         category: "ranks"
     },
-    "Acting Director": {
-        description: "Temporarily appointed by the DRO or SP to act as the DRO.",
-        requirements: "Handpicked by the DRO or SP.",
+    "Deputy Director of Operations": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
-    "Inspector General": {
-        description: "Member of ANROCOM, oversees all operations and departments within ANRO. In charge of MRs.",
-        requirements: "Handpicked by ANROCOM",
+    "Section Chief of MR Management": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
-    "Assistant Director for Human Resources and Internal Affairs": {
+    "Section Chief of Administrative Affairs": { // WIP
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "ranks"
+    },
+    "Section Chief of Internal Affairs": {
         description: "Member of ANROCOM, oversees the department of Internal Affairs.",
         requirements: "Handpicked by ANROCOM. Be active within IA.",
         points: "N/A",
         category: "ranks"
     },
-    "Assistant Director for Logistics and Documentation": {
+    "Section Chief of Logistics": {
         description: "Member of ANROCOM, oversees the department of Logistics and Human Resources.",
         requirements: "Handpicked by ANROCOM. Be active within LHR.",
         points: "N/A",
         category: "ranks"
     },
-    "Assistant Director for Training, Qualification, and Research": {
+    "Section Chief of Training & Qualification": {
         description: "Member of ANROCOM, oversees the department of TQUAL.",
         requirements: "Handpicked by ANROCOM. Be active within TQUAL.",
         points: "N/A",
         category: "ranks"
     },
-    "Assistant Director for External Affairs and Employee Engagement": {
+    "Section Chief of External Affairs": {
         description: "Member of ANROCOM, oversees the department of Employee Engagement",
         requirements: "Handpicked by ANROCOM. Be active within EE.",
         points: "N/A",
         category: "ranks"
     },
-    "Assistant Director": {
+    "Section Chief": {
         description: "Role given to the Assistant Directors of ANRO's main departments.",
         requirements: "Be picked by ANROCOM for an Assistant Director position.",
         points: "N/A",
@@ -381,9 +379,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "ANROCOM Clerk": {
-        description: "ANRO Command Staff who assists with all departments. Not offically a member of ANROCOM.",
-        requirements: "Appointed by ANROCOM",
+    "ANROCOM Clerk": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: ""
     },
@@ -399,21 +397,21 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Faction Oversight": {
-        description: "Overseers of ANRO. Given to the Naramo owner(s).",
-        requirements: "Unknown",
+    "Facton Oversight": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
     "Federal Government": {
-        description: "Role given to high ranking developers and officals who manage Naramo.",
-        requirements: "Recieve authorization from Blaley or PupNetx and request for the role in #special-role-request",
+        description: "Role given to Naramo Devs and select Game Staff",
+        requirements: "Be a member of 8NEC and request the role",
         points: "N/A",
         category: "ranks"
     },
-    "Naramo Moderator": {
-        description: "NAMS members. Moderation team of Naramo.",
-        requirements: "Be NAMS and request for the role in #special-role-request",
+    "Naramo Moderator": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
@@ -461,25 +459,31 @@ const roleDescriptions = {
     },
     "Shift Supervisor": {
         description: "Supervises shift operations and crew management",
-        requirements: "Pass the probationary phase.",
+        requirements: "20+ Shifts + Supervisor Application + 175+ Points + passed probationary phase",
         points: "175",
         category: "ranks"
     },
     "Junior Shift Supervisor": {
         description: "Probationary SU",
-        requirements: "Pass an MR application + 20+ Shifts + 175+ Points",
+        requirements: "Pass the MR exam",
         points: "N/A",
         category: "ranks"
     },
     "Faction Diplomat": {
         description: "High ranking members of other Naramo factions. These people represent their factions within ANRO.",
-        requirements: "Be an HR in any other Naramo faction, NFSF, FGDF, ASC, and NES",
+        requirements: "Be an HR in any other Naramo faction, NFSF, NDC, 308th, and NES",
+        points: "N/A",
+        category: "ranks"
+    },
+    "super duper cool orange role": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
     "Super duper cool donator people": {
         description: "Special recognition for generous donors",
-        requirements: "Donation of atleast 5$ USD+ to an NS charity event. Unobtainable",
+        requirements: "Donation to NS charity event. Unobtainable",
         points: "N/A",
         category: "ranks"
     },
@@ -489,9 +493,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "BEST LR AWARD": {
-        description: "Given to the person who is voted Best LR.",
-        requirements: "Be voted Best LR on one of man_ofcan's polls.",
+    "BEST LR AWARD": { // WIP
+        description: "",
+        requirements: "",
         points: "N/A",
         category: "ranks"
     },
@@ -509,14 +513,14 @@ const roleDescriptions = {
     },
     "Noobic Military Police": {
         description: "Military Police which assist with moderating Naramo.",
-        requirements: "NMP Patrol Officer+ and request for the role",
+        requirements: "Get accepted into NMP",
         points: "N/A",
         category: "ranks"
     },
     "Senior Reactor Operator": {
         description: "Senior LR position. Requires all main certifications.",
         requirements: "15+ shifts + Supervisor Certification",
-        points: "125",
+        points: "N/A",
         category: "ranks"
     },
     "Nuclear Engineer": {
@@ -538,7 +542,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     "NFSF Volunteer": {
-        description: "Security for orientations.",
+        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
         requirements: "Be an NFSF member",
         points: "N/A",
         category: "ranks"
@@ -607,8 +611,14 @@ const roleDescriptions = {
     },
     "Solo Certified": {
         description: "Qualified for independent solo operations",
-        requirements: "Attend a solo cert or open a T3 ticket in #hr-hub and send a video of you doing a solo.",
+        requirements: "Perform 3 solo T3s",
         points: "N/A",
         category: "certifications"
     },
-}
+    "Sleep Cert": {
+        description: "Sleep in call... for a long time...",
+        requirements: "Sleep in a call for 24 hours",
+        points: "N/A",
+        category: "certifications"
+    }
+};
