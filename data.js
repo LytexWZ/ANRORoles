@@ -146,12 +146,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "Administration Director": {
-        description: "Oversees all administrative operations and strategic planning for ANRO",
-        requirements: "Handpicked by Site President",
-        points: "N/A",
-        category: "departments"
-    },
     // R&D
     "Director of Research & Development": {
         description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
