@@ -1,3 +1,52 @@
+// Role grouping
+const roleGroups = {
+    "Training and Qualification": {
+        roles: ["Training and Qualification", "TQUAL Admin", "TQUAL Officer", "Senior Instructor", "Instructor", "Prob. Instructor"],
+        category: "departments",
+        description: "Training and Qualification department ranks"
+    },
+    "Logistics and Human Resources": {
+        roles: ["Logistics & Human Resources", "Senior LHR", "LHR", "ANRO Ribbon Maker"],
+        category: "departments",
+        description: "Logistics and Human Resources ranks"
+    },
+    "Investigation Unit": {
+        roles: ["IU | Head of Investigation Operations", "IU | Operations Inspector", "IU | Investigator"],
+        category: "departments",
+        description: "Investigation Unit ranks"
+    },
+    "External Affairs": {
+        roles: ["External Affairs", "Senior EA", "EA"],
+        category: "departments",
+        description: "External Affairs ranks"
+    },
+    "Internal Affairs": {
+        roles: ["Internal Affairs", "IA | Lead Moderator", "IA | Senior Moderator", "IA | Moderator", "IA | Probationary Moderator"],
+        category: "departments",
+        description: "Internal Affairs ranks"
+    },
+    "ANRO Research & Development": {
+        roles: ["Director of Research & Development", "Dep. Director of Research & Development","ANRO R&D - Chief Researcher", "ANRO R&D - Senior Researcher", "ANRO R&D - Researcher"],
+        category: "departments",
+        description: "Research & Development department ranks"
+    },
+    "Subdivisons": {
+        roles: ["ANRO Propaganda Official", "ANRO Recruitment Official", "ANRO Development Official", "ANRO Lore Official", "ANRO Minecraft Official", "NICE operator", "Evil dept. Voluntary member"],
+        category: "departments",
+        description: "Subdivisions"
+    },
+    "ANRO Defense Force": {
+        roles: ["ANRODF Service Ribbon", "ANROSOC", "ANROSTG"],
+        category: "departments",
+        description: "ANRODF departments"
+    },
+    "Miscellaneous Departments": {
+        roles: ["Research(ed) Department","Super Duper Research(ed) Department","Plant Maintenance (Bot Developer)"],
+        category: "departments",
+        description: "Misc 'departments'"
+    }
+};
+
 //Data
 const roleDescriptions = {
     // Departments
