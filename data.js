@@ -41,7 +41,7 @@ const roleGroups = {
         description: "ANRODF departments"
     },
     "Miscellaneous Departments": {
-        roles: ["Research(ed) Department","Super Duper Research(ed) Department","Plant Maintenance (Bot Developer)"],
+        roles: ["Research(ed) Department","Super Duper Research(ed) Department","Plant Maintenance (Bot Developer)","Community Creator"],
         category: "departments",
         description: "Misc 'departments'"
     }
@@ -279,6 +279,12 @@ const roleDescriptions = {
     // Misc departments
     "Plant Maintenance (Bot Developer)": {
         description: "Developer for the John Clanker bot",
+        requirements: "Unknown",
+        points: "N/A",
+        category: "departments"
+    },
+    "Community Creator": {
+        description: "Developer of the ANRO Portal (Role might change in the future)",
         requirements: "Unknown",
         points: "N/A",
         category: "departments"
