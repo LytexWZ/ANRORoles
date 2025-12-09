@@ -95,20 +95,20 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    // EE
-    "Employee Engagement": { //needs info
+    // EA
+    "External Affairs": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "Senior EE": { //needs info
+    "Senior EA": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "EE": { //needs info
+    "EA": { //needs info
         description: "",
         requirements: "",
         points: "N/A",
