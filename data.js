@@ -527,7 +527,7 @@ const roleDescriptions = {
     },
     "Nuclear Engineer": {
         description: "Experienced LR position.",
-        requirements: "5 solo T3 shifts + 10+ shifts + emergency & grid cert + 75+ points",
+        requirements: "10+ shifts + Emergency & grid cert + 75+ points",
         points: "75",
         category: "ranks"
     },
