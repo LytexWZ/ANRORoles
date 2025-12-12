@@ -652,7 +652,13 @@ const roleDescriptions = {
     },
     "Grid Certified": {
         description: "Certified to operate electrical grid systems",
-        requirements: "Pass the Grid Certification exam during a Grid Certification session.",
+        requirements: "Pass a Grid Training and Examination.",
+        points: "N/A",
+        category: "certifications"
+    },
+    "Grid Eligible": {
+        description: "Your halfway to being Grid Certified! Now, pass a Grid Examination",
+        requirements: "Complete a Grid Training",
         points: "N/A",
         category: "certifications"
     },
@@ -664,7 +670,13 @@ const roleDescriptions = {
     },
     "Emergency Certified": {
         description: "Qualified to handle emergency situations and procedures",
-        requirements: "Perform a successful SCRAM test, then pass an exam",
+        requirements: "Pass a Grid Training and Examination",
+        points: "N/A",
+        category: "certifications"
+    },
+    "Emergency Eligible": {
+        description: "Your halfway to being Emergency Certified! Now, pass a Emergency Examination",
+        requirements: "Complete an Emergency Training",
         points: "N/A",
         category: "certifications"
     },
