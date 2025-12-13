@@ -670,7 +670,7 @@ const roleDescriptions = {
     },
     "Emergency Certified": {
         description: "Qualified to handle emergency situations and procedures",
-        requirements: "Pass a Grid Training and Examination",
+        requirements: "Pass an Emergency Training and Examination",
         points: "N/A",
         category: "certifications"
     },
