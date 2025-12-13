@@ -89,13 +89,13 @@ const roleDescriptions = {
     },
     // LHR
     "Logistics & Human Resources": {
-        description: "Paper pushers of ANRO.",
+        description: "",
         requirements: "Reach MR + Apply to Logistics & Human Resources",
         points: "N/A",
         category: "departments"
     },
     "ANRO Ribbon Maker": { // might be LHR?
-        description: "LHR members that make ribbons.",
+        description: "ANRO ribbon makers, people who create your ribbon racks and distribute them!",
         requirements: "Be LHR, MR+ & request to become a Ribbon Maker.",
         points: "N/A",
         category: "departments"
@@ -114,33 +114,33 @@ const roleDescriptions = {
     },
 
     // IA
-    "Internal Affairs": { //needs info
-        description: "",
+    "Internal Affairs": { 
+        description: "The role signifying that you are a member of Internal Affairs, the department which handles dicipline within ANRO.",
+        requirements: "Join IA",
+        points: "N/A",
+        category: "departments"
+    },
+    "IA | Lead Moderator": { 
+        description: "Trusted moderator who reports directly to IA leadership. They are in charge of reviewing punishments, ensuring logs are correct as well as helping to lead the team.",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IA | Lead Moderator": { //needs info
-        description: "",
+    "IA | Senior Moderator": { 
+        description: "Trusted moderators who may take on extra responsibilities given by a Lead Moderator or IA leadership member.",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
-    "IA | Senior Moderator": { //needs info
-        description: "",
-        requirements: "",
+    "IA | Moderator": { 
+        description: "A fully fledged IA moderator expected to maintain activity.",
+        requirements: "Complete your probationary period.",
         points: "N/A",
         category: "departments"
     },
-    "IA | Moderator": { //needs info
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "departments"
-    },
-    "IA | Probationary Moderator": { //needs info
-        description: "",
-        requirements: "",
+    "IA | Probationary Moderator": { 
+        description: "A moderator who is new to the team.",
+        requirements: "Join IA",
         points: "N/A",
         category: "departments"
     },
