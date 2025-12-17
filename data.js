@@ -88,6 +88,12 @@ const roleDescriptions = {
         category: "departments"
     },
     // LHR
+    "Middle Rank Management": { // needs info
+        description: "",
+        requirements: "",
+        points: "N/A",
+        category: "departments"
+    },
     "Logistics & Human Resources": {
         description: "",
         requirements: "Reach MR + Apply to Logistics & Human Resources",
@@ -314,7 +320,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
-    "THE BEST OM AWARD": {
+    "THE BEST CS AWARD": {
         description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
         requirements: "Given to whoever is voted best CS.",
         points: "N/A",
@@ -457,7 +463,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Section Chief of External Affairs": {
+    "Stimming Chief of External Affairs": {
         description: "Member of ANROCOM, oversees the department of Employee Engagement",
         requirements: "Handpicked by ANROCOM. Be active within EE.",
         points: "N/A",
@@ -620,7 +626,7 @@ const roleDescriptions = {
         category: "ranks"
     },
     // Certifications
-    "Formation Certification": {
+    "Formation Certified": {
         description: "Be able to do wedges and faces",
         requirements: "Pass a Formation Certification hosted by Burger (retired) or Robloxer.",
         points: "N/A",
