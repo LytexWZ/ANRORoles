@@ -525,13 +525,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "Senior Reactor Operator": {
+    "Shift Technical Advisor": {
         description: "Senior LR position. Requires all main certifications.",
         requirements: "15+ shifts + Supervisor Certification",
         points: "125",
         category: "ranks"
     },
-    "Nuclear Engineer": {
+    "Senior Reactor Operator": {
         description: "Experienced LR position.",
         requirements: "10+ shifts + Emergency & grid cert + 75+ points",
         points: "75",
@@ -586,7 +586,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-
     "Noobic Military Police": {
         description: "Military Police which assist with moderating Naramo.",
         requirements: "NMP Patrol Officer+ and request for the role",
