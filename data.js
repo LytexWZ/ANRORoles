@@ -651,8 +651,8 @@ const roleDescriptions = {
     },
     "Supervisor Eligible": {
         description: "Able to cohost shifts and take the Supervisor Certification exam when ready.",
-        requirements: "Nuclear Engineer rank + 100 points + Emergency, Turbine, Solo, and Grid certifications + Not a member of RD (HR can make exception)",
-        points: "100",
+        requirements: "Senior Reactor Operator + Solo, Turbine, Emergency, Grid certifications + 125pts + NO punishment roles + 2 weeks of service in ANRO",
+        points: "125",
         category: "certifications"
     },
     "Grid Certified": {
