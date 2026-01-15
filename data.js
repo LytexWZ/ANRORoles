@@ -52,7 +52,7 @@ const roleDescriptions = {
     // Departments
     // TQUAL
     "1417626302982258709": {
-        name: "Training and Qualification",
+        name: "Training and Qualification Member",
         description: "ANRO personnel tasked with hosting orientations for new ANRO members and certifications for ANRO staff",
         requirements: "Reach MR + Apply to TQUAL",
         points: "N/A",
@@ -102,9 +102,9 @@ const roleDescriptions = {
         category: "departments"
     },
     "1442146096028582010": {
-        name: "Logistics & Human Resources",
+        name: "Logistics & Documentation Member",
         description: "",
-        requirements: "Reach MR + Apply to Logistics & Human Resources",
+        requirements: "Reach MR + Apply to Logistics & Documentation",
         points: "N/A",
         category: "departments"
     },
@@ -116,14 +116,14 @@ const roleDescriptions = {
         category: "departments"
     },
     "1439570647662727179": { //needs info
-        name: "Senior LHR",
+        name: "Senior LO",
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "1421538343304429772": { //needs info
-        name: "LHR",
+        name: "LO",
         description: "",
         requirements: "",
         points: "N/A",
@@ -279,7 +279,7 @@ const roleDescriptions = {
     "1383329432735056012": {
         name: "ANRO Development Official",
         description: "Responsible for working on the ANRO multicenter, ANRO's game for orientation.",
-        requirements: "Become an MR and wait for ANRD apps to arrive.",
+        requirements: "Pass an ANRD application and get accepted.",
         points: "N/A",
         category: "departments"
     },
@@ -327,16 +327,9 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "1380272614580424874": {
-        name: "Super Duper Research(ed) Department",
-        description: "IT'S JUST A JOKE, or is it?",
-        requirements: "Given to people who do stupid things by MR/HR",
-        points: "N/A",
-        category: "departments"
-    },
     // Awards
     "1437929159564464128": {
-        name: "BEST LR AWARD",
+        name: "Best LR Award",
         description: "Given to the person who is voted Best LR.",
         requirements: "Be voted Best LR on one of man_ofcan's polls.",
         points: "N/A",
@@ -350,14 +343,14 @@ const roleDescriptions = {
         category: "awards"
     },
     "1442491669000880232": {
-        name: "THE BEST CS AWARD",
+        name: "Best Command Staff Award",
         description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
         requirements: "Given to whoever is voted best CS.",
         points: "N/A",
         category: "awards"
     },
     "1402368216054894713": {
-        name: "SUPER DUPER BEST HICOM AWARD",
+        name: "Best ANROCOM (HICOM) Member Award",
         description: "Special recognition for outstanding high command service.",
         requirements: "Handpicked",
         points: "N/A",
@@ -372,14 +365,14 @@ const roleDescriptions = {
 //    },
     "1397987517747167242": {
         name: "Galaxy Sack",
-        description: "Prestigious award for exceptional service to ANRO",
+        description: "An award of higher class then the Diamond Sack, given to people who have made extremely signficant contributions shaping the way ANRO is.",
         requirements: "Outstanding contribution + ANROCOM/HR nomination",
         points: "N/A",
         category: "awards"
     },
     "1382351421168422962": {
         name: "Diamond Sack",
-        description: "High honor award for distinguished service",
+        description: "High honor award given to members of ANRO who've made significant contributions.",
         requirements: "Significant contribution + ANROCOM/HR nomination",
         points: "N/A",
         category: "awards"
@@ -442,6 +435,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "special"
     },
+    /*
     "1383522027251699772": {
         name: "Server Administrator",
         description: "Technical administrator with full server access",
@@ -449,6 +443,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "special"
     },
+    */
     // Ranks
     // HR
     "1376949919100698814": {
