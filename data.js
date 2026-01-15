@@ -36,9 +36,9 @@ const roleGroups = {
         description: "Subdivisions"
     },
     "ANRO Defense Force": {
-        roles: ["1382562284575920128", "1433637433487917158", "1444735506951966851"],
+        roles: ["1382562284575920128", "1433637433487917158",],
         category: "departments",
-        description: "ANRODF departments"
+        description: "ANRO Defense Force and ANROSOC"
     },
     "Miscellaneous Departments": {
         roles: ["1380272614580424874","1418007750654431272","1442680213577138206"],
@@ -68,7 +68,7 @@ const roleDescriptions = {
     "1431691213928398960": {
         name: "TQUAL Officer",
         description: "TQUAL member handling duties inside of a TQUAL division.",
-        requirements: "Appointed by AD or TQUAL Admin. (Not up to date!)",
+        requirements: "Appointed by SC of TQUAL or TQUAL Admin. (Not up to date!)",
         points: "N/A",
         category: "departments"
     },
@@ -206,29 +206,22 @@ const roleDescriptions = {
     "1440363061658521620": {
         name: "IU | Investigator",
         description: "Low rank within the Investigation Unit, the people who background check members at orientations. Has direct line to IA.",
-        requirements: "Pass a weekly IU application",
+        requirements: "Pass an IU application",
         points: "N/A",
         category: "departments"
     },
-    // ANRODF
+    // ANRODF/ANROSOC
     "1382562284575920128": {
         name: "ANRODF Service Ribbon",
-        description: "Service ribbon for ANRO Defense Force members",
-        requirements: "Active ANRODF service",
+        description: "Member of the ANRO Defense Force",
+        requirements: "Pass an application into ANRODF",
         points: "N/A",
         category: "departments"
     },
     "1433637433487917158": {
         name: "ANROSOC",
-        description: "Sub-department of ANRODF, specializing in third person shooters.",
+        description: "Sub-department of ANRODF, containing extremely skilled first person / third person shooter players.",
         requirements: "Pass an ANROSOC tryout.",
-        points: "N/A",
-        category: "departments"
-    },
-    "1444735506951966851": {
-        name: "ANROSTG",
-        description: "Sub-department of ANRODF, specializing in first person shooters.",
-        requirements: "Pass an ANROSTG tryout.",
         points: "N/A",
         category: "departments"
     },
@@ -486,48 +479,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    "1447420474253377640": {
-        name: "Section Chief of MR Management",
-        description: "Head of the department managing MR's.",
-        requirements: "Handpicked by ANROCOM",
-        points: "N/A",
-        category: "ranks"
-    },
-/*    "1447420389314662533": { // Section Chief of Administrative Affairs - WIP
-        name: "Section Chief of Administrative Affairs",
-        description: "",
-        requirements: "",
-        points: "N/A",
-        category: "ranks"
-    }, */
-    "1429519185930752091": {
-        name: "Section Chief of Internal Affairs",
-        description: "Member of ANROCOM, oversees the department of Internal Affairs.",
-        requirements: "Handpicked by ANROCOM. Be active within IA.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "1442146096028582010": {
-        name: "Section Chief of Logistics",
-        description: "Member of ANROCOM, oversees the department of Logistics and Human Resources.",
-        requirements: "Handpicked by ANROCOM. Be active within LHR.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "1429518823580766299": {
-        name: "Section Chief of Training & Qualification",
-        description: "Member of ANROCOM, oversees the department of TQUAL.",
-        requirements: "Handpicked by ANROCOM. Be active within TQUAL.",
-        points: "N/A",
-        category: "ranks"
-    },
-    "1429518954937978930": {
-        name: "Stimming Chief of External Affairs",
-        description: "Member of ANROCOM, oversees the department of Employee Engagement",
-        requirements: "Handpicked by ANROCOM. Be active within EE.",
-        points: "N/A",
-        category: "ranks"
-    },
     "1374792611063140402": {
         name: "Section Chief",
         description: "Role given to the Assistant Directors of ANRO's main departments.",
@@ -671,14 +622,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    // Role ID is no where to be found, the might have deleted the role or something
-    "NFSF Volunteer": {
-        name: "NFSF Volunteer",
-        description: "Security for orientations, have limited jurisdiction and have direct contact with IA & DC&E",
-        requirements: "Be an NFSF member",
-        points: "N/A",
-        category: "ranks"
-    },
     // Retirement home!
     "1427385970529009674": {
         name: "Retired ANROCOM",
@@ -702,13 +645,6 @@ const roleDescriptions = {
         category: "ranks"
     },
     // TRULY misc shit
-    "1375933602608447539": {
-        name: "Server Booster",
-        description: "Discord server booster. Special name color and role.",
-        requirements: "Active Discord server boost",
-        points: "N/A",
-        category: "ranks"
-    },
     // Certifications
     "1411482428777697301": {
         name: "Formation Certified",
