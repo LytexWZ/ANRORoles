@@ -579,6 +579,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
+    /*
     // Misc Ranks
     "1373432137289826384": {
         name: "Operations Assistant",
@@ -644,7 +645,7 @@ const roleDescriptions = {
         points: "N/A",
         category: "ranks"
     },
-    // TRULY misc shit
+    */
     // Certifications
     "1411482428777697301": {
         name: "Formation Certified",
