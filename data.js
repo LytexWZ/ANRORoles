@@ -204,7 +204,7 @@ const roleDescriptions = {
         requirements: "Pass an ANROHG tryout",
         points: "N/A",
         category: "departments"
-    ],
+    },
     // R&D
     "1381493578215198790": {
         name: "Director of Research & Development",
