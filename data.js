@@ -10,11 +10,6 @@ const roleGroups = {
         category: "departments",
         description: "Logistics and Human Resources ranks"
     },
-    "Investigation Unit": {
-        roles: ["1440362745043226794", "1440362965214691490", "1440363061658521620"],
-        category: "departments",
-        description: "Investigation Unit ranks"
-    },
     "External Affairs": {
         roles: ["1411055172175794236", "1445900003187884124", "1445896609933164737"],
         category: "departments",
@@ -36,7 +31,7 @@ const roleGroups = {
         description: "Subdivisions"
     },
     "ANRO Defense Force": {
-        roles: ["1382562284575920128", "1433637433487917158",],
+        roles: ["1382562284575920128", "1433637433487917158", "1439746495690707054"],
         category: "departments",
         description: "ANRO Defense Force and ANROSOC"
     },
@@ -188,28 +183,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    // IU
-    "1440362745043226794": {
-        name: "IU | Head of Investigation Operations",
-        description: "First in Command of the Investigation Unit",
-        requirements: "Handpicked by HOIO upon retirement",
-        points: "N/A",
-        category: "departments"
-    },
-    "1440362965214691490": {
-        name: "IU | Operations Inspector",
-        description: "MR within Investigation Unit.",
-        requirements: "Pass an OI application",
-        points: "N/A",
-        category: "departments"
-    },
-    "1440363061658521620": {
-        name: "IU | Investigator",
-        description: "Low rank within the Investigation Unit, the people who background check members at orientations. Has direct line to IA.",
-        requirements: "Pass an IU application",
-        points: "N/A",
-        category: "departments"
-    },
     // ANRODF/ANROSOC
     "1382562284575920128": {
         name: "ANRODF Service Ribbon",
@@ -225,6 +198,13 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
+    "1439746495690707054": {
+        name: "ANROHG",
+        description: "someone please tell me what to put here :sob:",
+        requirements: "Pass an ANROHG tryout",
+        points: "N/A",
+        category: "departments"
+    ],
     // R&D
     "1381493578215198790": {
         name: "Director of Research & Development",
