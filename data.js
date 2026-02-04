@@ -10,10 +10,10 @@ const roleGroups = {
         category: "departments",
         description: "Logistics and Human Resources ranks"
     },
-    "External Affairs": {
+    "Community Engagement": {
         roles: ["1411055172175794236", "1445900003187884124", "1445896609933164737"],
         category: "departments",
-        description: "External Affairs ranks"
+        description: "Community Engagement ranks"
     },
     "Internal Affairs": {
         roles: ["1410810226420220026", "1446948686230982918", "1446948550553632959", "1446948169899573542", "1446948353698173012"],
@@ -161,23 +161,23 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    // EA
+    // CE
     "1411055172175794236": { //needs info
-        name: "External Affairs",
+        name: "Community Engagement",
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "1445900003187884124": { //needs info
-        name: "Senior EA",
+        name: "Senior CE",
         description: "",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "1445896609933164737": { //needs info
-        name: "EA",
+        name: "CE",
         description: "",
         requirements: "",
         points: "N/A",
