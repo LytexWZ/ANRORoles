@@ -15,10 +15,11 @@ const roleGroups = {
         category: "departments",
         description: "Community Engagement ranks"
     },
-    "Internal Affairs": {
+    "Moderation Services Bureau": {
         roles: ["1410810226420220026", "1446948686230982918", "1446948550553632959", "1446948169899573542", "1446948353698173012"],
         category: "departments",
-        description: "Internal Affairs ranks"
+        description: "Internal Affairs ranks",
+        description: " ranks"
     },
     "ANRO Research & Development": {
         roles: ["1381493578215198790", "1381870520571662390","1393094765117050950", "1393094412220891196", "1380896048385359953"],
@@ -125,39 +126,39 @@ const roleDescriptions = {
         category: "departments"
     },
 
-    // IA
+    // MSB
     "1410810226420220026": {
-        name: "Internal Affairs",
-        description: "The role signifying that you are a member of Internal Affairs, the department which handles dicipline within ANRO.",
-        requirements: "Join IA",
+        name: "Moderation Services Bureau",
+        description: "The role signifying that you are a member of MSB, the department which handles dicipline within ANRO.",
+        requirements: "Join MSB",
         points: "N/A",
         category: "departments"
     },
     "1446948686230982918": {
-        name: "IA | Lead Moderator",
-        description: "Trusted moderator who reports directly to IA leadership. They are in charge of reviewing punishments, ensuring logs are correct as well as helping to lead the team.",
+        name: "MSB | Lead Moderator",
+        description: "Trusted moderator who reports directly to MSB leadership. They are in charge of reviewing punishments, ensuring logs are correct as well as helping to lead the team.",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "1446948550553632959": {
-        name: "IA | Senior Moderator",
-        description: "Trusted moderators who may take on extra responsibilities given by a Lead Moderator or IA leadership member.",
+        name: "MSB | Senior Moderator",
+        description: "Trusted moderators who may take on extra responsibilities given by a Lead Moderator or MSB leadership member.",
         requirements: "",
         points: "N/A",
         category: "departments"
     },
     "1446948169899573542": {
-        name: "IA | Moderator",
+        name: "MSB | Moderator",
         description: "A fully fledged IA moderator expected to maintain activity.",
         requirements: "Complete your probationary period.",
         points: "N/A",
         category: "departments"
     },
     "1446948353698173012": {
-        name: "IA | Probationary Moderator",
+        name: "MSB | Probationary Moderator",
         description: "A moderator who is new to the team.",
-        requirements: "Join IA",
+        requirements: "Join MSB",
         points: "N/A",
         category: "departments"
     },
