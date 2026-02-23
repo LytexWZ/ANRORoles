@@ -646,8 +646,8 @@ const roleDescriptions = {
     },
     "1416983996772126841": {
         name: "Supervisor Certified",
-        description: "Able to occupy supervisor positions in ANRO and during shifts. Required for promotion to SRO.",
-        requirements: "Complete the Supervisor Exam + Cohost all 4 main Certifications and a Shift",
+        description: "Able to occupy supervisor positions in ANRO and during shifts. Required for promotion to STA.",
+        requirements: "Complete the Supervisor Exam + Cohost all 4 main Certifications trainings and a Shift",
         points: "N/A",
         category: "certifications"
     },
