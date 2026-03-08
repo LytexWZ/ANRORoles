@@ -343,6 +343,7 @@ const roleDescriptions = {
         requirements: "Complete and pass 2 Tempered Certifications to obtain the rank of Nuclear Enginer",
         points: "N/A",
         category: "awards",
+    },
 // Ask Jiron :D | NEEDS FIX     
 //    "Quantum Sack": { // WIP
 //        description: "",
