@@ -393,6 +393,34 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
+    "1432097376239095848": {
+        name: "Spooky Certified",
+        description: "Specialized certification for spooky operations. Operates the SpOoOoOoky grid during Halloween!",
+        requirements: "Complete the SpOoOoOoky exam! (UNOBTAINABLE)",
+        points: "N/A",
+        category: "awards"
+    },
+    "1444143319713058876": {
+        name: "Jolly Certified",
+        description: "Truly a Jolly operator! Joke certification",
+        requirements: "Attend a Jolly certification session (UNOBTAINABLE)",
+        points: "N/A",
+        category: "awards"
+    },
+    "1444817220613050550": {
+        name: "Sleep Certified",
+        description: "zzzzzz... Joke certification!",
+        requirements: "Attend a Sleep Certification (UNOBTAINABLE)",
+        points: "N/A",
+        category: "awards"
+    },
+    "1471619559810142301": {
+        name: "Lovely Certified",
+        description: "Joke certification obtained during Valentines! <3  ",
+        requirements: "Attend a Lovely Certification (UNOBTAINABLE)",
+        points: "N/A",
+        category: "awards"
+    },
 // Ask Jiron :D | NEEDS FIX     
 //    "Quantum Sack": { // WIP
 //        description: "",
@@ -400,8 +428,6 @@ const roleDescriptions = {
 //        points: "N/A",
 //        category: "awards"
 //    },
-
-
     "1432170943907893248": {
         name: "Naramo Massacre",
         description: "Witness the mass murdering of fellow ROs. Rest in peace!",
@@ -430,12 +456,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
-    "1427826989758414869": {
-        name: "EVIL department",
-        description: "The department of EVIL...",
-        requirements: "Apply to Evil Department when applications were out. Unobtainable?",
-        points: "N/A",
-        category: "awards"
     },
 
     // Special Roles
@@ -657,20 +677,6 @@ const roleDescriptions = {
         name: "Formation Certified",
         description: "Be able to do wedges and faces",
         requirements: "Pass a Formation Certification hosted by Burger (retired) or Robloxer.",
-        points: "N/A",
-        category: "certifications"
-    },
-    "1432097376239095848": {
-        name: "Spooky Certified",
-        description: "Specialized certification for spooky operations. Operates the SpOoOoOoky grid during Halloween!",
-        requirements: "Complete the SpOoOoOoky exam!",
-        points: "N/A",
-        category: "certifications"
-    },
-    "1444143319713058876": {
-        name: "Jolly Certified",
-        description: "Truly a Jolly operator! Joke certification",
-        requirements: "Attend a Jolly certification session",
         points: "N/A",
         category: "certifications"
     },
