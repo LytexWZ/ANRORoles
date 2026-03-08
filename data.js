@@ -311,32 +311,38 @@ const roleDescriptions = {
     // Awards
     "1437929159564464128": {
         name: "Best LR Award",
-        description: "Given to the person who is voted Best LR.",
-        requirements: "Be voted Best LR on one of man_ofcan's polls.",
+        description: "Given to the person who is voted Best LR",
+        requirements: "Be voted Best LR on the monthly poll",
         points: "N/A",
         category: "awards"
     },
     "1402765949928472596": {
         name: "Most Memorable Retired HR",
-        description: "Honorary title for distinguished retired HR personnel",
-        requirements: "Be voted Most Memorable Retired HR",
+        description: "Given to the person voted Most Memorable Retired HR",
+        requirements: "Be voted Most Memorable Retired HR on the monthly poll",
         points: "N/A",
         category: "awards"
     },
     "1442491669000880232": {
         name: "Best Command Staff Award",
-        description: "Recognition for outstanding middle rank performance. The role is meant to say best CS but 0xvan misspelled it as OM.",
-        requirements: "Given to whoever is voted best CS.",
+        description: "Given to the person voted Best Command Staff",
+        requirements: "Be voted Best Command Staff on the monthly poll",
         points: "N/A",
         category: "awards"
     },
     "1402368216054894713": {
         name: "Best ANROCOM (HICOM) Member Award",
-        description: "Special recognition for outstanding high command service.",
-        requirements: "Handpicked",
+        description: "Given to the person voted Best ANROCOM (HICOM)",
+        requirements: "Be voted Best ANROCOM (HICOM) on the monthly poll",
         points: "N/A",
         category: "awards"
     },
+    "1447800723612893337": {
+        name: "Nuclear Engineer (Tempered)",
+        description: "The best of the best: THE NUCLEAR ENGINEERS! You endured the pressure. You stepped through the flames. Stand proud, for you are now... IMMORTAL!",
+        requirements: "Complete and pass 2 Tempered Certifications to obtain the rank of Nuclear Enginer",
+        points: "N/A",
+        category: "awards",
 // Ask Jiron :D | NEEDS FIX     
 //    "Quantum Sack": { // WIP
 //        description: "",
