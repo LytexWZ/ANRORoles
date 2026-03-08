@@ -345,21 +345,21 @@ const roleDescriptions = {
         category: "awards"
     },
      "1437929159564464128": {
-        name: "Best LR Award",
+        name: "Best Low Rank Award",
         description: "Given to the person who is voted Best LR",
         requirements: "Be voted Best LR on the monthly poll",
         points: "N/A",
         category: "awards"
     },
-    "1402765949928472596": {
-        name: "Most Memorable Retired HR",
-        description: "Given to the person voted Most Memorable Retired HR",
-        requirements: "Be voted Most Memorable Retired HR on the monthly poll",
+     "1402368595115114576": {
+        name: "Best Middle Rank Award",
+        description: "Given to the person who is voted Best LR",
+        requirements: "Be voted Best LR on the monthly poll",
         points: "N/A",
         category: "awards"
     },
     "1442491669000880232": {
-        name: "Best Command Staff Award",
+        name: "Best Command Staff (HR) Award",
         description: "Given to the person voted Best Command Staff",
         requirements: "Be voted Best Command Staff on the monthly poll",
         points: "N/A",
@@ -372,7 +372,27 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
-
+     "1461869587413860525": {
+        name: "Best Former Middle Rank Award",
+        description: "Given to the person who is voted Best Former MR",
+        requirements: "Be voted Best Former MR on the monthly poll",
+        points: "N/A",
+        category: "awards"
+    },
+    "1461869647568572437": {
+        name: "Best Former High Rank Award",
+        description: "Given to the person voted Best Former HR",
+        requirements: "Be voted Best Former HR on the monthly poll",
+        points: "N/A",
+        category: "awards"
+    },
+    "1461869711334703247": {
+        name: "Best Former ANROCOM (HICOM) Member Award",
+        description: "Given to the person voted Best Former ANROCOM (HICOM)",
+        requirements: "Be voted Best Former ANROCOM (HICOM) on the monthly poll",
+        points: "N/A",
+        category: "awards"
+    },
 // Ask Jiron :D | NEEDS FIX     
 //    "Quantum Sack": { // WIP
 //        description: "",
