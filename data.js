@@ -456,8 +456,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "awards"
     },
-    },
-
     // Special Roles
     "1396877556753502339": {
         name: "ANROCOM",
