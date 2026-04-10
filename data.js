@@ -27,7 +27,7 @@ const roleGroups = {
         description: "Research & Development department ranks"
     },
     "Subdivisons": {
-        roles: ["1392480182157316156", "1408903361247449199", "1383329432735056012", "1411493573253267496", "1430734162603675689", "1428853469187674142", "1428853642986782851"],
+        roles: ["1392480182157316156", "1408903361247449199", "1383329432735056012", "1411493573253267496", "1428853469187674142", "1428853642986782851"],
         category: "departments",
         description: "Subdivisions"
     },
@@ -268,13 +268,6 @@ const roleDescriptions = {
         name: "ANRO Lore Official",
         description: "Department which creates the lore of ANRO and hosts lore events for ANRO.",
         requirements: "Apply and pass specific apps.",
-        points: "N/A",
-        category: "departments"
-    },
-    "1430734162603675689": {
-        name: "ANRO Minecraft Official",
-        description: "Department handling the Minecraft server of ANRO",
-        requirements: "Unknown",
         points: "N/A",
         category: "departments"
     },
