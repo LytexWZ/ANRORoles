@@ -18,13 +18,12 @@ const roleGroups = {
     "Moderation Services Bureau": {
         roles: ["1410810226420220026", "1446948686230982918", "1446948550553632959", "1446948169899573542", "1446948353698173012"],
         category: "departments",
-        description: "Internal Affairs ranks",
-        description: " ranks"
+        description: "Moderation Services Bereau ranks",
     },
-    "ANRO Research & Development": {
+    "Noobic Innovations and Research Unit": {
         roles: ["1381493578215198790", "1381870520571662390","1393094765117050950", "1393094412220891196", "1380896048385359953"],
         category: "departments",
-        description: "Research & Development department ranks"
+        description: "Noobic Innovations and Research Unit department ranks"
     },
     "Subdivisons": {
         roles: ["1392480182157316156", "1408903361247449199", "1383329432735056012", "1411493573253267496", "1428853469187674142", "1428853642986782851"],
@@ -206,37 +205,37 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    // R&D
+    // R&D someone feel free to pr this and update all of this, i really have no idea and dont feel like adding so many more roles to niru
     "1381493578215198790": {
-        name: "Director of Research & Development",
+        name: "Director of NIRU",
         description: "Highest authority of the subdepartment ANRO R&D responsible for collecting data from the reactor for the creation of procedures and documentation",
         requirements: "Appointed by TQUAL Assistant Director",
         points: "N/A",
         category: "departments"
     },
     "1381870520571662390": {
-        name: "Dep. Director of Research & Development",
+        name: "Dep. Director of NIRU",
         description: "Senior executive who supports and reports to the Director of Research, acting as the second in command of the Research Department",
         requirements: "Appointed by Director of Research",
         points: "N/A",
         category: "departments"
     },
     "1393094765117050950": {
-        name: "ANRO R&D - Chief Researcher",
+        name: "NIRU - Chief Researcher",
         description: "High rank inside the Research Department, tasked with hosting research sessions for R&D to research during.",
         requirements: "Be MR and request promotion. (Hosting position)",
         points: "N/A",
         category: "departments"
     },
     "1393094412220891196": {
-        name: "ANRO R&D - Senior Researcher",
+        name: "NIRU - Senior Researcher",
         description: "Middle rank inside the Research Department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Be active and contribute within the department",
         points: "N/A",
         category: "departments"
     },
     "1380896048385359953": {
-        name: "ANRO R&D - Researcher",
+        name: "NIRU - Researcher",
         description: "Low rank inside the research department, tasked with the collection of data from the reactor for the creation of procedures and documentation",
         requirements: "Apply to join ANRO R&D in #subdivision-entry",
         points: "N/A",
