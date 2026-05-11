@@ -54,5 +54,5 @@ In order to contribute to this list you will need 2 things, a computer (You can 
 4. Head over to the pull request section of this repo (Not the one you created) and create one
 5. Your contribution will be accepted shortly, Thanks for your contribution even if it's one tiny change it truly helps! 
 
-##### You can also follow Github's guide on [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui#forking-a-repository) followed by [creating a PR on a forked repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+##### You can also follow Github's guide on [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui#forking-a-repository) followed by [creating a PR from a forked repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 ##### Keep in mind, after forking the repository, make your changes to the FORKED REPOSITORY, then create the PR on THIS REPOSITORY, not the forked one.
