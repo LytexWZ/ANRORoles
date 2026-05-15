@@ -26,7 +26,7 @@ const roleGroups = {
         description: "Noobic Innovations and Research Unit department ranks"
     },
     "Subdivisons": {
-        roles: ["1392480182157316156", "1488279255635988662", "1383329432735056012", "1411493573253267496", "1428853469187674142", "1428853642986782851"],
+        roles: ["1392480182157316156", "1488279255635988662", "1383329432735056012", "1411493573253267496"],
         category: "departments",
         description: "Subdivisions"
     },
@@ -270,21 +270,6 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "1428853642986782851": {
-        name: "Evil dept. Voluntary member",
-        description: "Evil operators tasked with destruction of the plant!",
-        requirements: "Request for Evil Department in the thread titled 'Enlistment' found in #officer-posting.",
-        points: "N/A",
-        category: "departments"
-    },
-    "1428853469187674142": {
-        name: "NICE operator",
-        description: "You are very kind!",
-        requirements: "Request for Nice Operator in the thread titled 'Enlistment' found in #officer-posting.",
-        points: "N/A",
-        category: "departments"
-    },
-
     // Misc departments
     "1418007750654431272": {
         name: "Plant Maintenance (Bot Developer)",
