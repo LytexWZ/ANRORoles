@@ -26,7 +26,7 @@ const roleGroups = {
         description: "Noobic Innovations and Research Unit department ranks"
     },
     "Subdivisons": {
-        roles: ["1392480182157316156", "1408903361247449199", "1383329432735056012", "1411493573253267496", "1428853469187674142", "1428853642986782851"],
+        roles: ["1392480182157316156", "1488279255635988662", "1383329432735056012", "1411493573253267496", "1428853469187674142", "1428853642986782851"],
         category: "departments",
         description: "Subdivisions"
     },
