@@ -249,8 +249,8 @@ const roleDescriptions = {
         points: "N/A",
         category: "departments"
     },
-    "1408903361247449199": {
-        name: "ANRO Recruitment Official",
+    "1488279255635988662": {
+        name: "ANRO Recruitment Service",
         description: "Department which assists with recruiting new members to ANRO. Anyone can still recruit.",
         requirements: "Apply to join ANRORS in #subdivision-entry",
         points: "N/A",
@@ -345,7 +345,7 @@ const roleDescriptions = {
     },
      "1402368595115114576": {
         name: "Best Middle Rank Award",
-        description: "Given to the person who is voted Best LR",
+        description: "Given to the person who is voted Best MR",
         requirements: "Be voted Best LR on the monthly poll",
         points: "N/A",
         category: "awards"
